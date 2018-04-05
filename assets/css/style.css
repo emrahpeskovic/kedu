@@ -37,6 +37,10 @@ footer {
 
 }
 
+.flex {
+  padding-left: 50px;
+}
+
 #socialmedia { /* Definer og placer */
   height: 20px;
   margin-top: 10px;
