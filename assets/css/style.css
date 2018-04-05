@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.ttf")
+}
+
 footer {
   background-color: #216393;
   width: 100%;
   float: left;
   color: white;
-  font-family: verdana; 
+  font-family: "Lato-Regular";
 }
 
 .flex {
