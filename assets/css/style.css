@@ -1,20 +1,32 @@
 footer {
-  display: flex;
-  background-color: red;
+  background-color: #216393;
+  width: 100%;
+  float: left;
+  color: white;
+  font-family: verdana; 
 }
 
 .flex {
-  padding-left: 50px;
+  /* padding-left: 100px; */
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+  padding: 20px;
+}
+
+.flytte {
+margin-left: 150px;
 }
 
 #socialmedia { /* Definer og placer */
   height: 20px;
-  margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   width: 100%;
-  background-color: black;
+  background-color: #044C7F;
   display: block;
 
 }
