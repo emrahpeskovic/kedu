@@ -10,36 +10,74 @@ body {
   font-family: "Lato-Regular";
   src: url("../fonts/Lato-Regular.ttf")
 }
+
 .header {
   background-color: black;
   width: 100%;
   height: 400px;
   margin: auto;
+  clear: both;
 }
 
-.boks {
+.logo {
+padding: 20px;
+}
+
+nav {
+  height: 40px;
+  float: right;
+}
+
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+li {
+  list-style: none;
+  width: 110px;
+  height: 40px;
+  background-color: #044C7F;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+}
+
+ul {
   display: flex;
-  width: 350px;
-  height: 200px;
-  background-color: white;
-  /* align-content: center; */
-  flex-direction: center; 
-
 }
-
-
 
 .container {
   background-color: #216393;
   width: 100%;
-  height: 700px;
+  height: 100vh;
   margin: auto;
   opacity: 0.3;
 }
 
-.background {
-  background-color: red;
+.section_container {
+/* background-color: green; */
+width: 1000px;
+height: 100vh;
+display: flex;
+margin: auto;
+flex-wrap: wrap;
+justify-content: center;
+padding: 30px;
+}
 
+.justify-boks {
+  justify-content: center;
+  margin-left: auto;
+
+}
+
+.boks {
+  width: 450px;
+  height: 180px;
+  background-color: white;
 }
 
 footer {
