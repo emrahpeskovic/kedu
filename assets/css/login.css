@@ -39,10 +39,17 @@ p#welcometxt {
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
-p#forgotpw {
+#accountlinks {
   float: left;
   font-family: "Lato-Regular";
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 16px;
+}
+#accountlinks ul {
+  list-style: none;
+}
+#accountlinks li {
+  list-style: none;
 }
 #container {
   width: 450px;
@@ -63,10 +70,14 @@ input[type=text], input[type=password] {
   background-color: #216393;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: verdana;
+  font-family: "Lato-Regular";
   color: #fff;
   float: right;
 }
-a:link {
-  color: #707070;
+a:link, a:active, a:visited {
+  color: #505050;
+  text-decoration: none;
+}
+a:hover {
+  color: #216393;
 }
