@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.ttf")
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -18,13 +22,51 @@ body {
   transform: translate(-50%, -50%);
   background-color: #fff;
   width: 720px;
-  height: 350px;
+  height: 303px;
   border-radius: 25px;
   box-shadow: 0px 3px 5px #333;
+  padding: 30px 30px 30px 30px;
 }
 #logo {
   background-image: url("../images/kedu_logo.png");
-  width: 250px;
-  height: 75px;
+  width: 175px;
+  height: 58px;
   margin: auto;
+}
+p#welcometxt {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+p#forgotpw {
+  float: left;
+  font-family: "Lato-Regular";
+  font-size: 14px;
+}
+#container {
+  width: 450px;
+  margin: auto;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+}
+#loginbtn {
+  width: 190px;
+  height: 44px;
+  background-color: #216393;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: verdana;
+  color: #fff;
+  float: right;
+}
+a:link {
+  color: #707070;
 }
