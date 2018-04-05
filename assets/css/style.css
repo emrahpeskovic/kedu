@@ -28,3 +28,29 @@ body {
   height: auto;
   margin: auto;
 }
+
+
+footer {
+  display: flex;
+  background-color: red;
+
+}
+
+#socialmedia { /* Definer og placer */
+  height: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  display: block;
+
+}
+#socialmedia a { /* Ikoner farve */
+  color: white;
+  text-decoration: none;
+}
+#socialmedia a:hover { /* Når man holder over ikonerne skifter de farve */
+  color: #00a19b;
+}
