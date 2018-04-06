@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.ttf")
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#thread-container {
+  width: 1200px;
+  background-color: #e0e0e0;
+  margin: auto;
+}
+#thread-title {
+  width: 100%;
+  height: 90px;
+  background-color: #044C7F;
+  font-family: "Lato-Regular";
+  color: #f1f1f2;
+  float: left;
+}
+h1#title {
+  padding: 20px 0px 0px 40px;
+  font-size: 34px;
+}
+.profile-box {
+  width: 280px;
+  height: 600px;
+  float: left;
+  background-color: #216393;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  background-color: #044C7F;
+  margin: 40px auto;
+}
+.profile-desc {
+  width: 200px;
+  height: 280px;
+  background-color: #044C7F;
+  margin: 40px auto;
+}
+.thread-content {
+  width: 920px;
+  height: 600px;
+  background-color: #f1f1f1;
+  float: right;
+  font-family: "Lato-Regular";
+  font-size: 18px;
+}
+img.img-center {
+  margin: 5px 5px 5px 5px;
+}
+p.thread-txt {
+  padding: 40px 40px 0px 40px;
+  line-height: 24px;
+}
+section.post-container {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+}
+.post-end {
+  width: 1200px;
+  height: 20px;
+  background-color: #044C7F;
+  float: left;
+}
+section#comment-section {
+  width: 1200px;
+  height: 400px;
+  background-color: #044C7F;
+  float: left;
+}
+#form-container {
+  float: right;
+  width: 840px;
+  padding: 20px 40px 40px 40px;
+}
+#add-comment {
+  width: 830px;
+  height: 230px;
+  padding: 5px;
+  font-family: "Lato-Regular";
+}
+#add-comment-btn {
+  width: 170px;
+  height: 44px;
+  background-color: #00a19b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lato-Regular";
+  color: #fff;
+  float: right;
+  margin: 20px 0px 0px 0px;
+}
