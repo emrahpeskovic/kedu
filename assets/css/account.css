@@ -14,7 +14,7 @@ body {
   background-repeat: : no-repeat;
   background-size: 100%;
 }
-#loginbox {
+#container {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -22,7 +22,6 @@ body {
   transform: translate(-50%, -50%);
   background-color: #fff;
   width: 720px;
-  height: 303px;
   border-radius: 25px;
   box-shadow: 0px 3px 5px #333;
   padding: 30px 30px 30px 30px;
@@ -33,7 +32,7 @@ body {
   height: 58px;
   margin: auto;
 }
-p#welcometxt {
+p#text {
   font-family: "Lato-Regular";
   font-size: 16px;
   text-align: center;
@@ -51,9 +50,10 @@ p#welcometxt {
 #accountlinks li {
   list-style: none;
 }
-#container {
+#input-container {
   width: 450px;
   margin: auto;
+  padding-top: 24px;
 }
 input[type=text], input[type=password] {
     width: 100%;
@@ -64,8 +64,8 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
     float: left;
 }
-#loginbtn {
-  width: 190px;
+.button {
+  width: 150px;
   height: 44px;
   background-color: #216393;
   text-transform: uppercase;
@@ -73,6 +73,16 @@ input[type=text], input[type=password] {
   font-family: "Lato-Regular";
   color: #fff;
   float: right;
+}
+.button_left {
+  width: 90px;
+  height: 44px;
+  background-color: #216393;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lato-Regular";
+  color: #fff;
+  float: left;
 }
 a:link, a:active, a:visited {
   color: #505050;
