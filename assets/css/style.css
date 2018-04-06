@@ -11,25 +11,18 @@ body {
   src: url("../fonts/Lato-Regular.ttf")
 }
 
-.header {
-  background-color: black;
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  clear: both;
-}
-
 .logo {
 padding: 20px;
 }
 
-.a active {
-  background-color: red; 
+li.active {
+  background-color: #216393;
 }
 
 nav {
   height: 40px;
   float: right;
+  background-color: white;
 }
 
 li a {
@@ -43,8 +36,7 @@ li {
   width: 110px;
   height: 40px;
   background-color: #044C7F;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin: 0px 2px 4px 0.5px;
   text-align: center;
 }
 
@@ -52,36 +44,63 @@ ul {
   display: flex;
 }
 
+.header {
+  background-color: lightpink;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  clear: both;
+}
+
+.headerpicture {
+  display: flex;
+  height: 350px;
+  width: 350px;
+  float: left;
+  margin: 30px 0px 30px 50px;
+}
+.kasse1 {
+  display: flex;
+  background-color: red;
+  float: left;
+  height: 200px;
+  width: 350px;
+  margin: 0px 0px 30px 50px;
+}
+
+
+
+
 .container {
-  background-color: #B4D0E0;
+  background-color: blue;
   width: 100%;
   height: 100vh;
   margin: auto;
 }
 
 .section_container {
-/* background-color: green; */
-width: 1000px;
+background-color: #B4D0E0;
+width: 1200px;
 height: 100vh;
 display: flex;
 margin: auto;
 flex-wrap: wrap;
 justify-content: center;
 padding: 30px;
+border-radius: 30px;
 }
 
 .justify-boks {
   justify-content: center;
   margin-left: auto;
-
 }
 
 .boks {
-  width: 450px;
+  width: 550px;
   height: 180px;
   background-color: white;
   font-family: "Lato-Regular";
-
+  padding: 3px; /* Lille kant rundt om billedet i boksen */
 }
 
 .boks h2 {
@@ -108,15 +127,11 @@ p.comment {
   padding: 4px;
 }
 
-
-
-
 .tilpas {
   height: 180px;
   width: 180px;
   float: left;
 }
-
 
 footer {
   background-color: #216393;
