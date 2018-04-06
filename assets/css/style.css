@@ -50,11 +50,10 @@ ul {
 }
 
 .container {
-  background-color: #216393;
+  background-color: #B4D0E0;
   width: 100%;
   height: 100vh;
   margin: auto;
-  opacity: 0.3;
 }
 
 .section_container {
@@ -78,7 +77,43 @@ padding: 30px;
   width: 450px;
   height: 180px;
   background-color: white;
+  font-family: "Lato-Regular";
+
 }
+
+.boks h2 {
+  float: left;
+  margin: 5px 0px 0px 10px;
+  padding: 0px;
+}
+
+p.beskrivelse {
+float: left;
+margin: 10px 0px 0px 10px;
+}
+
+p.overskrift {
+  float: left;
+  margin: 15px 0px 0px 10px;
+  font-weight: bold;
+}
+
+p.comment {
+  float: left;
+  margin: 10px 0px 0px 10px;
+  background-color: #B4D0E0;
+  padding: 4px;
+}
+
+
+
+
+.tilpas {
+  height: 180px;
+  width: 180px;
+  float: left;
+}
+
 
 footer {
   background-color: #216393;
