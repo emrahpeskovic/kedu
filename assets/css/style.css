@@ -63,8 +63,8 @@ ul {
 .kasse1 {
   display: flex;
   background-color: grey;
-  float: left;
-  height: 200px;
+  /* float: left; */
+  height: 150px;
   width: 350px;
   margin: 0px 0px 50px 50px;
 }
