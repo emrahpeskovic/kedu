@@ -46,21 +46,22 @@ ul {
 
 .headerpicture {
   display: flex;
-  height: 350px;
-  width: 350px;
+  height: 500px;
+  width: 450px;
+  margin-top: 50px;
 }
 
 .kasse1 {
   display: flex;
   background-color: grey;
   height: 120px;
-  width: 350px;
+  width: 450px;
 }
 
 header {
-  height: 400px;
+  height: 700px;
   width: 100%;
-  background-color: green;
+  background-color: blue;
   clear: both;
 }
 
@@ -69,37 +70,25 @@ header {
   display: flex;
   width: 1500px;
   margin: auto;
-  background-color: red;
-  height: 400px;
-  justify-content: center;
+  height: 700px;
+  justify-content: space-between;
 }
 
-#header_container .image_section1 img {
-  max-width: 100%;
-  height: auto; /* Sørger for at billedet ser almindeligt ud*/
-  padding: 0px 100px 0px 0px;
+#container {
+  background-color: blue;
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  padding: 40px 0px 40px 0px;
 }
 
 .image_section1 {
 
 }
 
-#container {
-  background-color: blue;
-  width: 100%;
-<<<<<<< HEAD
-  min-height: 100vh;
-=======
-  /* min-height: 100vh; */
->>>>>>> 8573c77c04a8c2e33e4f2a1438479e21b7287e99
-  margin: auto;
-  padding: 40px 0px 40px 0px;
-}
-
 .section_container {
 background-color: #B4D0E0;
 width: 1500px;
-/* min-height: 80vh; */
 display: flex;
 margin: auto;
 flex-wrap: wrap;
