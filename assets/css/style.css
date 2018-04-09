@@ -59,17 +59,29 @@ ul {
   float: left;
   margin: 30px 0px 30px 50px;
 }
+
 .kasse1 {
   display: flex;
-  background-color: red;
-  float: left;
-  height: 200px;
+  background-color: grey;
+  /* float: left; */
+  height: 150px;
   width: 350px;
-  margin: 0px 0px 30px 50px;
+  margin: 0px 0px 50px 50px;
 }
 
+#header {
+  margin-top: 40px;
+}
 
+#header .image_section1 img {
+  max-width: 100%;
+  height: auto; /* Sørger for at billedet ser almindeligt ud*/
+}
 
+#header .image_section1 {
+  float: left;
+  width: 33%;
+}
 
 .container {
   background-color: blue;
