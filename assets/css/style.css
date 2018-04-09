@@ -86,7 +86,7 @@ ul {
 .container {
   background-color: blue;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
 }
 
@@ -186,16 +186,20 @@ margin-left: 150px;
 }
 /**************************MATERIALER*************************/
 #content-wrapper {
-  background-color: #000;
+  background-color: #216393;
   width: 100%;
   float: left;
+}
+#content {
+  width: 1540px;
+  margin: auto;
 }
 #box-left {
   float: left;
   width: 400px;
   height: 1200px;
   background-color: #fff;
-  margin: 20px 0px 20px 20px;
+  margin: 20px 0px 20px 0px;
   border-radius: 20px;
 }
 #box-main {
