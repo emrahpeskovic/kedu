@@ -61,7 +61,11 @@ ul {
 header {
   height: 700px;
   width: 100%;
+<<<<<<< HEAD
   background-color: blue;
+=======
+  background-image: url("../images/forsidebillede1.png");
+>>>>>>> parent of 19d7f7f... Merge branch 'master' of https://github.com/emrahpeskovic/kedu
   clear: both;
   background-image:
 }
