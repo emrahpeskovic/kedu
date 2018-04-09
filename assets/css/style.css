@@ -148,7 +148,7 @@ p.comment {
 footer {
   background-color: #216393;
   width: 100%;
-  clear: both;
+  float: left;
   color: white;
   font-family: "Lato-Regular";
 }
@@ -188,7 +188,7 @@ margin-left: 150px;
 #content-wrapper {
   background-color: #000;
   width: 100%;
-  margin: auto;
+  float: left;
 }
 #box-left {
   float: left;
