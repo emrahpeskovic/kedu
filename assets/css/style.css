@@ -77,10 +77,11 @@ header {
 #header_container .image_section1 img {
   max-width: 100%;
   height: auto; /* Sørger for at billedet ser almindeligt ud*/
+  padding: 0px 100px 0px 0px; 
 }
 
 .image_section1 {
-  padding: 30px;
+
 }
 
 #container {
@@ -101,7 +102,6 @@ flex-wrap: wrap;
 justify-content: center;
 border-radius: 30px;
 padding: 40px 0px 40px 0px;
-
 }
 
 .boks {
@@ -110,29 +110,34 @@ padding: 40px 0px 40px 0px;
   background-color: white;
   font-family: "Lato-Regular";
   padding: 3px; /* Lille kant rundt om billedet i boksen */
-  margin: 0px 10px 0px 10px;
+  margin: 20px 10px 10px 20px;
 }
 
 .boks h2 {
   float: left;
   margin: 5px 0px 0px 10px;
   padding: 0px;
+  width: 360px;
 }
 
 p.beskrivelse {
-float: left;
-margin: 10px 0px 0px 10px;
+  float: left;
+  margin: 10px 0px 0px 10px;
+  width: 360px;
 }
 
 p.overskrift {
   float: left;
-  margin: 15px 0px 0px 10px;
+  /* margin: 15px 0px 0px 10px; */
   font-weight: bold;
+  padding: 0px;
+  width: 360px;
+  margin: 10px 0px 0px 10px;
 }
 
 p.comment {
-  float: left;
-  margin: 10px 0px 0px 10px;
+  float: right;
+  margin: 10px 30px 0px 10px;
   background-color: #B4D0E0;
   padding: 4px;
 }
