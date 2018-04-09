@@ -44,14 +44,6 @@ ul {
   display: flex;
 }
 
-.header {
-  background-color: lightpink;
-  width: 100%;
-  height: 600px;
-  margin: auto;
-  clear: both;
-}
-
 .headerpicture {
   display: flex;
   height: 350px;
@@ -69,16 +61,16 @@ ul {
   margin: 0px 0px 50px 50px;
 }
 
-#header {
+#header_section {
   margin-top: 40px;
 }
 
-#header .image_section1 img {
+#header_section .image_section1 img {
   max-width: 100%;
   height: auto; /* Sørger for at billedet ser almindeligt ud*/
 }
 
-#header .image_section1 {
+#header_section .image_section1 {
   float: left;
   width: 33%;
 }
@@ -86,7 +78,7 @@ ul {
 .container {
   background-color: blue;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   margin: auto;
 }
 
