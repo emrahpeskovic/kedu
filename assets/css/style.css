@@ -26,7 +26,7 @@ nav {
 }
 
 #nav_undersidebar {
-  height: 15px;
+  height: 20px;
   width: 100%;
   background-color: #044C7F;
 }
@@ -35,6 +35,7 @@ li a {
   text-decoration: none;
   font-size: 20px;
   color: white;
+  font-family: Lato-Regular;
 }
 
 li {
@@ -69,6 +70,8 @@ ul {
   background-color: white;
   height: 120px;
   padding: 30px;
+  font-family: Lato-Regular;
+  font-size: 0.7vw;
 }
 
 header {
@@ -82,7 +85,7 @@ header {
 #header_container {
   /* margin-top: 40px; */
   display: flex;
-  width: 100%;
+  width: 80%;
   margin: auto;
   justify-content: space-between;
   flex-direction: row;
@@ -92,7 +95,7 @@ header {
   background-color: #216393;
   width: 100%;
   margin: auto;
-  padding: 40px 0px 40px 0px;
+q
 }
 
 .image_section1 {
@@ -105,9 +108,6 @@ background-color: #B4D0E0;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin-left: 3%;
-margin-right: 3%;
-border-radius: 30px;
 padding: 40px 0px 40px 0px;
 }
 
@@ -145,8 +145,9 @@ p.overskrift {
 p.comment {
   float: right;
   margin: 10px 30px 0px 10px;
-  background-color: #B4D0E0;
+  background-color: #044C7F;
   padding: 4px;
+  color: white;
 }
 
 .tilpas {
@@ -156,7 +157,7 @@ p.comment {
 }
 
 footer {
-  background-color: #216393;
+  background-color: #044C7F;
   width: 100%;
   float: left;
   color: white;
