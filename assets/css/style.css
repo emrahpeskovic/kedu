@@ -4,6 +4,7 @@
 }
 body {
   /* font-family:  */
+
 }
 
 @font-face {
@@ -22,7 +23,6 @@ li.active {
 nav {
   height: 40px;
   float: right;
-  background-color: white;
 }
 
 li a {
@@ -44,67 +44,68 @@ ul {
   display: flex;
 }
 
-.header {
-  background-color: lightpink;
-  width: 100%;
-  height: 600px;
-  margin: auto;
-  clear: both;
-}
-
 .headerpicture {
   display: flex;
   height: 350px;
   width: 350px;
-  float: left;
-  margin: 30px 0px 30px 50px;
 }
 
 .kasse1 {
   display: flex;
   background-color: grey;
-  /* float: left; */
-  height: 150px;
+  height: 120px;
   width: 350px;
-  margin: 0px 0px 50px 50px;
 }
 
-#header {
-  margin-top: 40px;
+header {
+  height: 400px;
+  width: 100%;
+  background-color: green;
+  clear: both;
 }
 
-#header .image_section1 img {
+#header_container {
+  /* margin-top: 40px; */
+  display: flex;
+  width: 1300px;
+  margin: auto;
+  background-color: red;
+  height: 400px;
+  justify-content: center;
+}
+
+#header_container .image_section1 img {
   max-width: 100%;
   height: auto; /* Sørger for at billedet ser almindeligt ud*/
+  padding: 0px 100px 0px 0px; 
 }
 
-#header .image_section1 {
-  float: left;
-  width: 33%;
+.image_section1 {
+
 }
 
-.container {
+#container {
   background-color: blue;
   width: 100%;
+<<<<<<< HEAD
   min-height: 100vh;
+=======
+  /* min-height: 100vh; */
+>>>>>>> 8573c77c04a8c2e33e4f2a1438479e21b7287e99
   margin: auto;
+  padding: 40px 0px 40px 0px;
 }
 
 .section_container {
 background-color: #B4D0E0;
-width: 1200px;
-height: 100vh;
+width: 1300px;
+/* min-height: 80vh; */
 display: flex;
 margin: auto;
 flex-wrap: wrap;
 justify-content: center;
-padding: 30px;
 border-radius: 30px;
-}
-
-.justify-boks {
-  justify-content: center;
-  margin-left: auto;
+padding: 40px 0px 40px 0px;
 }
 
 .boks {
@@ -113,28 +114,34 @@ border-radius: 30px;
   background-color: white;
   font-family: "Lato-Regular";
   padding: 3px; /* Lille kant rundt om billedet i boksen */
+  margin: 20px 10px 10px 20px;
 }
 
 .boks h2 {
   float: left;
   margin: 5px 0px 0px 10px;
   padding: 0px;
+  width: 360px;
 }
 
 p.beskrivelse {
-float: left;
-margin: 10px 0px 0px 10px;
+  float: left;
+  margin: 10px 0px 0px 10px;
+  width: 360px;
 }
 
 p.overskrift {
   float: left;
-  margin: 15px 0px 0px 10px;
+  /* margin: 15px 0px 0px 10px; */
   font-weight: bold;
+  padding: 0px;
+  width: 360px;
+  margin: 10px 0px 0px 10px;
 }
 
 p.comment {
-  float: left;
-  margin: 10px 0px 0px 10px;
+  float: right;
+  margin: 10px 30px 0px 10px;
   background-color: #B4D0E0;
   padding: 4px;
 }
