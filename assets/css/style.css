@@ -13,7 +13,8 @@ body {
 }
 
 .logo {
-padding: 20px;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 li.active {
@@ -117,7 +118,7 @@ padding: 40px 0px 40px 0px;
   background-color: white;
   font-family: "Lato-Regular";
   padding: 3px; /* Lille kant rundt om billedet i boksen */
-  margin: 20px 10px 10px 20px;
+  margin: 10px 10px 10px 10px;
 }
 
 .boks h2 {
