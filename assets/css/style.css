@@ -62,7 +62,6 @@ header {
   height: 700px;
   width: 100%;
   background-image: url("../images/forsidebillede1.png");
-  background-size: contain;
   clear: both;
 }
 
