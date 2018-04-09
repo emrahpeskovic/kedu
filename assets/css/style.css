@@ -87,7 +87,11 @@ header {
 #container {
   background-color: blue;
   width: 100%;
+<<<<<<< HEAD
+  min-height: 100vh;
+=======
   /* min-height: 100vh; */
+>>>>>>> 8573c77c04a8c2e33e4f2a1438479e21b7287e99
   margin: auto;
   padding: 40px 0px 40px 0px;
 }
@@ -189,16 +193,20 @@ margin-left: 150px;
 }
 /**************************MATERIALER*************************/
 #content-wrapper {
-  background-color: #000;
+  background-color: #216393;
   width: 100%;
   float: left;
+}
+#content {
+  width: 1540px;
+  margin: auto;
 }
 #box-left {
   float: left;
   width: 400px;
   height: 1200px;
   background-color: #fff;
-  margin: 20px 0px 20px 20px;
+  margin: 20px 0px 20px 0px;
   border-radius: 20px;
 }
 #box-main {
