@@ -13,8 +13,8 @@ body {
 }
 
 .logo {
-  margin-top: 2%;
   margin-left: 2%;
+  margin-top: 2%;
 }
 
 li.active {
@@ -22,28 +22,31 @@ li.active {
 }
 
 nav {
-  height: 40px;
-  width: 40%;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #nav_undersidebar {
   height: 20px;
   width: 100%;
   background-color: #044C7F;
+  margin: auto;
 }
 
 li a {
   text-decoration: none;
   font-size: 20px;
   color: white;
-  font-family: Lato-Regular;
+  font-family: "Lato-Regular";
 }
 
 
 li {
   display: flex;
   list-style: none;
-  width: 100%;
+  width: 160px;
   height: 40px;
   background-color: #044C7F;
   margin: 0px 3px 0px 0px;
@@ -51,6 +54,7 @@ li {
   align-items: center;
   transition:all 0.3s ease;
   opacity: 1;
+  box-sizing: border-box;
 }
 
 li:hover {
@@ -62,11 +66,8 @@ li:last-child {
 }
 
 ul {
-  position: absolute;
   display: flex;
-  justify-content: flex-end;
-  right: 0;
-  width: 50%;
+  flex-wrap: wrap;
 }
 
 .headerpicture {
@@ -78,32 +79,79 @@ ul {
   background-color: white;
   height: 120px;
   padding: 30px;
-  font-family: Lato-Regular;
+  font-family: "Lato-Regular";
   font-size: 0.7vw;
 }
-
-header {
+header#header-forside {
+  background: url("../images/header-images/header-forside.jpg") center no-repeat;
+  background-size: cover;
   width: 100%;
-  background-color: black;
-  background-image: url("../images/login_bg.jpg");
-  clear: both;
-  margin: 0;
+  margin: auto;
+  position: relative;
 }
-
+header#header-forum {
+  background: url("../images/header-images/header-forum.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 375px;
+  margin: auto;
+  position: relative;
+}
+header#header-opgaver {
+  background: url("../images/header-images/header-opgaver.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 375px;
+  margin: auto;
+  position: relative;
+}
+header#header-materialer {
+  background: url("../images/header-images/header-materialer.jpg") center no-repeat;
+  width: 100%;
+  height: 375px;
+  margin: auto;
+  position: relative;
+}
+header#header-minprofil {
+  background: url("../images/header-images/header-minprofil.jpg") center no-repeat;
+  width: 100%;
+  height: 375px;
+  margin: auto;
+  position: relative;
+}
 #header_container {
-  /* margin-top: 40px; */
   display: flex;
   width: 80%;
+  max-width: 1366px;
+  height: auto;
   margin: auto;
   justify-content: space-between;
   flex-direction: row;
 }
-
+#header-cover {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding-left: 2%;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  background-color: rgb(4,76,127, 0.6)
+}
+h1#page-title {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Lato-Regular";
+  margin: 0;
+}
 #container {
   background-color: #216393;
   width: 100%;
+  max-width: 1366px
   margin: auto;
-q
 }
 
 .image_section1 {
@@ -113,7 +161,7 @@ q
 }
 
 .image_section1:hover {
-  opacity: 0.4;
+  opacity: 0.8;
 }
 
 .section_container {
@@ -209,73 +257,67 @@ margin-left: 150px;
   color: #00a19b;
 }
 /**************************MATERIALER*************************/
-#content-wrapper {
-  background-color: #216393;
-  width: 100%;
-  float: left;
+#wrapper {
+  display: flex;
+  min-width: 1024px;
+  flex-direction: row;
+  margin: 300px 0px 0px 0px;
+  background-color: #B4D0E0;
+}
+#aside-kurser {
+  background: #fff;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+#col-2 {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin: 0px 20px 0px 20px;
 }
 #content {
-  width: 1540px;
-  margin: auto;
+  display: flex;
+  flex-direction: row;
 }
-#box-left {
-  float: left;
-  width: 400px;
-  height: 1200px;
+#section_aarsplaner {
+  flex: 1;
   background-color: #fff;
-  margin: 20px 0px 20px 0px;
-  border-radius: 20px;
+  height: 200px;
+    margin: 20px 10px 0px 00px;
 }
-#box-main {
-  float: left;
-  width: 1100px;
-  height: 600px;
-  background-color: #fff;
-  margin: 20px 0px 20px 20px;
-  border-radius: 20px;
+#emnedage {
+  background: #fff;
+  flex: 1;
+  height: 200px;
+  margin: 20px 0px 0px 10px;
 }
-.box-title {
-  width: 100%;
-  height: 60px;
-  float: left;
-  background-color: #044C7F;
-  border-radius: 20px 20px 0px 0px;
+#section-lektionsplaner {
+  background: #fff;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-evenly;
 }
-.img-container {
-  width: 120px;
-  height: 120px;
-  background-color: black;
-  margin: 20px 20px 20px 20px;
-  float: left;
-}
-.description {
-  width: 220px;
-  height: 120px;
-  float: left;
-  background-color: #ccc;
-  margin: 20px 20px 20px 0px;
-}
-#main_boxleft {
-  width: 530px;
-  height: 600px;
-  float: left;
-  background-color: #fff;
-  margin: 0px 20px 20px 20px;
-  border-radius: 20px;
-}
-#main_boxright {
-  width: 530px;
-  height: 600px;
-  float: left;
-  background-color: #fff;
-  margin: 0px 20px 20px 20px;
-  border-radius: 20px;
-}
-.plan-container {
+/* ******************************************* */
+.kursus {
   width: 200px;
-  height: 250px;
+  height: 170px;
+  background-color: #ccc;
+  margin: 20px 0px 20px 0px;
+}
+.lektionsplan {
+  width: 180px;
+  height: 220px;
+  background-color: brown;
+  margin: 20px 0px 20px 0px;
+}
+.title {
+  width: 100%;
+  background-color: #044C7F;
+  color: #fff;
+  text-align: center;
   float: left;
-  background-color: blue;
-  border-radius: 20px 20px 0px 0px;
-  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
 }
