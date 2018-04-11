@@ -288,14 +288,13 @@ margin-left: 150px;
 #section_aarsplaner {
   flex: 1;
   background-color: #E4ECF2;
-  height: 200px;
   margin: 20px 10px 0px 0px;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 #emnedage {
   background: #E4ECF2;
   flex: 1;
-  height: 200px;
   margin: 20px 0px 0px 10px;
   border-radius: 20px;
 }
@@ -308,23 +307,47 @@ margin-left: 150px;
 }
 /* ******************************************* */
 .kursus {
-  width: 200px;
-  height: 170px;
-  background-color: #ccc;
-  margin: 20px 0px 20px 0px;
+  max-width: 421px;
+  min-height: 180px;
+  background-color: #f1f1f2;
+  margin: 20px 20px 0px 20px;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.kursus-billede {
+  float: left;
+}
+.kursus-beskrivelse {
+  width: 245px;
+  float: right;
+  padding-left: 10px;
+  font-family: "Lato-Regular";
 }
 .lektionsplan {
-  width: 180px;
-  height: 220px;
+  width: 230px;
+  height: 300px;
+  background-color: #044C7F;
+  margin: 60px 0px 60px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+.lektionsplan-billede {
+  width: 100%;
+  height: 140px;
   background-color: brown;
-  margin: 20px 0px 20px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+.lektionsplan-beskrivelse {
+  color: #fff;
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  padding: 10px;
 }
 h1.box-title {
   width: 100%;
   height: 70px;
   background-color: #044C7F;
   color: #fff;
-  float: left;
   box-sizing: border-box;
   font-family: "Lato-Regular";
   font-size: 30px;
@@ -332,4 +355,40 @@ h1.box-title {
   justify-content: center;
   align-items: center;
   border-radius: 20px 20px 0px 0px;
+}
+.aarsplaner-beskrivelse1 {
+  float: left;
+  width: 40%;
+  color: #044C7F;
+  font-family: "Lato-Regular";
+  font-size: 24px;
+  padding: 40px 30px 60px 30px;
+  text-align: center;
+}
+.aarsplaner-beskrivelse2 {
+  float: right;
+  width: 40%;
+  color: #044C7F;
+  font-family: "Lato-Regular";
+  font-size: 24px;
+  padding: 40px 30px 60px 30px;
+  text-align: center;
+}
+.emnedage-beskrivelse1 {
+  float: left;
+  width: 40%;
+  color: #044C7F;
+  font-family: "Lato-Regular";
+  font-size: 24px;
+  padding: 40px 30px 60px 30px;
+  text-align: center;
+}
+.emnedage-beskrivelse2 {
+  float: right;
+  width: 40%;
+  color: #044C7F;
+  font-family: "Lato-Regular";
+  font-size: 24px;
+  padding: 40px 30px 60px 30px;
+  text-align: center;
 }
