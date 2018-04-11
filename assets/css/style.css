@@ -258,20 +258,61 @@ margin-left: 150px;
 #socialmedia a:hover { /* Når man holder over ikonerne skifter de farve */
   color: #00a19b;
 }
+/**************************FORUM******************************/
+#wrapper-forum {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 100px 20px 100px;
+  box-sizing: border-box;
+  background-color: #B4D0E0;
+
+}
+.forum-container {
+  max-width: 400px;
+  height: 100px;
+  background-color: #E4ECF2;
+  border-radius: 20px;
+  margin: 0px 20px 20px 20px;
+}
+.traad-container {
+  background-color: #f1f1f2;
+  margin: 20px;
+}
+h1.traad-titel {
+  color: #6b6b6b;
+  font-family: "Lato-Regular";
+  font-size: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#emne-container {
+  height: 600px;
+  background-color: #E4ECF2;
+  border-radius: 20px;
+}
+.col-1 {
+  flex: 1;
+  background-color: red;
+}
+.col-2 {
+  flex: 1;
+  background-color: red;
+}
 /**************************MATERIALER*************************/
 #wrapper {
   padding: 20px 20px 20px 20px;
   box-sizing: border-box;
   display: flex;
-  min-width: 1024px;
-  flex-direction: row;
   background-color: #B4D0E0;
 }
 #aside-kurser {
   background: #E4ECF2;
+  display: flex;
   flex: 1;
   flex-direction: column;
-  display: flex;
   align-items: center;
   border-radius: 20px;
 }
@@ -291,12 +332,20 @@ margin-left: 150px;
   margin: 20px 10px 0px 0px;
   border-radius: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-#emnedage {
-  background: #E4ECF2;
+#section_emnedage {
   flex: 1;
-  margin: 20px 0px 0px 10px;
+  background-color: #E4ECF2;
+  margin: 20px 10px 0px 0px;
   border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px 0px 0px 10px;
 }
 #section-lektionsplaner {
   background: #E4ECF2;
@@ -304,6 +353,10 @@ margin-left: 150px;
   flex-direction: row wrap;
   justify-content: space-evenly;
   border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: border-box;
 }
 /* ******************************************* */
 .kursus {
@@ -328,8 +381,8 @@ margin-left: 150px;
   width: 230px;
   height: 300px;
   background-color: #044C7F;
-  margin: 60px 0px 60px 0px;
   border-radius: 20px 20px 0px 0px;
+  margin: 10px;
 }
 .lektionsplan-billede {
   width: 100%;
@@ -343,7 +396,7 @@ margin-left: 150px;
   font-size: 16px;
   padding: 10px;
 }
-h1.box-title {
+h1.boks-titel {
   width: 100%;
   height: 70px;
   background-color: #044C7F;
@@ -356,39 +409,19 @@ h1.box-title {
   align-items: center;
   border-radius: 20px 20px 0px 0px;
 }
-.aarsplaner-beskrivelse1 {
-  float: left;
+.boks-beskrivelse_left {
   width: 40%;
   color: #044C7F;
   font-family: "Lato-Regular";
   font-size: 24px;
-  padding: 40px 30px 60px 30px;
   text-align: center;
+  padding: 20px;
 }
-.aarsplaner-beskrivelse2 {
-  float: right;
+.boks-beskrivelse_right {
   width: 40%;
   color: #044C7F;
   font-family: "Lato-Regular";
   font-size: 24px;
-  padding: 40px 30px 60px 30px;
   text-align: center;
-}
-.emnedage-beskrivelse1 {
-  float: left;
-  width: 40%;
-  color: #044C7F;
-  font-family: "Lato-Regular";
-  font-size: 24px;
-  padding: 40px 30px 60px 30px;
-  text-align: center;
-}
-.emnedage-beskrivelse2 {
-  float: right;
-  width: 40%;
-  color: #044C7F;
-  font-family: "Lato-Regular";
-  font-size: 24px;
-  padding: 40px 30px 60px 30px;
-  text-align: center;
+  padding: 20px;
 }
