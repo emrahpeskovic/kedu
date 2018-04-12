@@ -638,11 +638,11 @@ p.bruger-beskrivelse {
   transition:all 0.3s ease;
 }
 .opgave-boks {
-  width: 450px;
+  width: 400px;
   height: 300px;
   background-color: #044C7F;
   border-radius: 20px 20px 0px 0px;
-  margin: 20px;
+  margin: 20px 10px 10px 10px;
 }
 .opgave-billede {
   width: 100%;
@@ -721,9 +721,9 @@ h1.boks-titel {
   border-radius: 20px;
   flex: 1;
   display: flex;
-  flex-direction:column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   padding-bottom: 20px;
   box-sizing: border-box;
 }
