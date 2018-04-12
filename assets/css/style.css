@@ -78,6 +78,32 @@ ul {
 .headerpicture {
   display: flex;
   width: 100%;
+  position: relative;
+}
+
+.picture-container {
+  position: relative;
+  text-align: center;
+}
+
+.picture-container .text-on-picture {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: #444;
+  font-family: "Lato-Regular";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.picture-container:hover .text-on-picture {
+  opacity: 1;
+}
+
+.text-on-picture {
+  transition:all 0.3s ease;
 }
 
 .kasse1 {
@@ -167,7 +193,6 @@ h1#page-title {
 
 .image_section1:hover {
   opacity: 0.8;
-
 }
 
 .section_container {
