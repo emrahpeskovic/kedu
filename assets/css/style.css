@@ -636,7 +636,23 @@ p.bruger-beskrivelse {
   color: #fff;
   transition:all 0.3s ease;
 }
+<<<<<<< HEAD
 
+=======
+.opgave-boks {
+  width: 400px;
+  height: 300px;
+  background-color: #044C7F;
+  border-radius: 20px 20px 0px 0px;
+  margin: 20px 10px 10px 10px;
+}
+.opgave-billede {
+  width: 100%;
+  height: 190px;
+  background-color: red;
+  border-radius: 20px 20px 0px 0px;
+}
+>>>>>>> f20b8a48c9fee132f3d02427e58d4fc98d990a8e
 #opgaver-container .img-opgave1, .img-opgave2, .img-opgave3, .img-opgave4, .img-opgave5, .img-opgave6, .img-opgave7, .img-opgave8, .img-opgave9, .img-opgave10, .img-opgave11, .img-opgave12, a {
   font-family: "CabinSketch-Regular";
   text-decoration: none;
@@ -703,9 +719,9 @@ h1.boks-titel {
   border-radius: 20px;
   flex: 1;
   display: flex;
-  flex-direction:column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   padding-bottom: 20px;
   box-sizing: border-box;
 }
