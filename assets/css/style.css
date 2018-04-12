@@ -12,6 +12,11 @@ body {
   src: url("../fonts/Lato-Regular.ttf")
 }
 
+@font-face {
+  font-family: "CabinSketch-Regular";
+  src: url("../fonts/CabinSketch-Regular.ttf")
+}
+
 .logo {
   margin-left: 2%;
   margin-top: 2%;
@@ -274,6 +279,8 @@ margin-left: 150px;
   background-color: #E4ECF2;
   border-radius: 20px;
   margin: 0px 20px 20px 20px;
+  box-shadow: 2px 2px 5px #777777;
+
 }
 .traad-container {
   background-color: #f1f1f2;
@@ -468,9 +475,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave2 {
   background-image: url("../images/opgaver/002.png");
@@ -479,9 +486,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave3 {
   background-image: url("../images/opgaver/003.png");
@@ -490,9 +497,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave4 {
   background-image: url("../images/opgaver/004.png");
@@ -501,9 +508,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave5 {
   background-image: url("../images/opgaver/005.png");
@@ -512,9 +519,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave6 {
   background-image: url("../images/opgaver/006.png");
@@ -523,9 +530,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave7 {
   background-image: url("../images/opgaver/007.png");
@@ -534,9 +541,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave8 {
   background-image: url("../images/opgaver/008.png");
@@ -545,9 +552,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave9 {
   background-image: url("../images/opgaver/009.png");
@@ -556,9 +563,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave10 {
   background-image: url("../images/opgaver/010.png");
@@ -567,9 +574,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave11 {
   background-image: url("../images/opgaver/011.png");
@@ -578,9 +585,9 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
 .img-opgave12 {
   background-image: url("../images/opgaver/012.png");
@@ -589,10 +596,20 @@ p.bruger-beskrivelse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato-Regular";
   font-size: 26px;
   color: #fff;
+  transition:all 0.3s ease;
 }
+
+div a {
+  font-family: "CabinSketch-Regular";
+  text-decoration: none;
+}
+
+div a:hover {
+  opacity: 0.5;
+}
+
 /**********************************************/
 .kursus {
   max-width: 421px;
