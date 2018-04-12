@@ -73,6 +73,7 @@ input[type=text], input[type=password] {
   font-family: "Lato-Regular";
   color: #fff;
   float: right;
+  border-style: none;
 }
 .button_left {
   width: 90px;
@@ -83,6 +84,7 @@ input[type=text], input[type=password] {
   font-family: "Lato-Regular";
   color: #fff;
   float: left;
+  border-style: none;
 }
 a:link, a:active, a:visited {
   color: #505050;

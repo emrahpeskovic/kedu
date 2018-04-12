@@ -319,28 +319,74 @@ p.forum-pagenumber {
   padding-bottom: 20px;
 }
 .post-container {
-  max-width: 1100px;
-  background-color: red;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
 }
 .post-eksempel {
-  flex: 4;
-  background-color: green;
+  max-width: 1200px;
+  flex: 3;
+  background-color: #E4ECF2;
+  margin: 0px 0px 0px 20px;
+  border-radius: 20px;
 }
 .post-bruger {
-  flex: 1;
-  background-color: blue;
+  min-width: 250px;
+  max-width: 400px;
+  background-color: #E4ECF2;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #wrapper-traad {
-  width: 100%;
-  display: flex;
   background-color: #B4D0E0;
   padding: 20px;
   box-sizing: border-box;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+}
+p.boks-tekst {
+  padding: 20px;
+  box-sizing: border-box;
+  color: #044C7F;
+  font-family: "Lato-Regular";
+  font-size: 16px;
+}
+p.bruger-beskrivelse {
+  box-sizing: border-box;
+  color: #044C7F;
+  font-family: "Lato-Regular";
+  font-size: 16px;
+}
+#post-kommentar {
+  max-width: 1470px;
+  height: 300px;
+  margin: 20px auto auto auto;
+}
+#tilfoej-kommentar {
+  width: 100%;
+  height: 200px;
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  resize: none;
+  border-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+#knap-tilfoejkommentar {
+  width: 150px;
+  height: 44px;
+  background-color: #216393;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lato-Regular";
+  color: #fff;
+  float: right;
+  margin: 10px 0px 0px 0px;
+  border-style: none;
 }
 /**************************MATERIALER*************************/
 #wrapper {
@@ -606,6 +652,8 @@ h1.boks-titel {
   flex-direction:column;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 20px;
+  box-sizing: border-box;
 }
 .boks-tekst_left {
   width: 40%;
@@ -635,4 +683,11 @@ h1.boks-titel {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.brugernavn {
+  color: #6b6b6b;
+  font-family: "Lato-Regular";
+  font-size: 20px;
+  padding: 10px 0px 10px 0px;
+  box-sizing: border-box;
 }
