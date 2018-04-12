@@ -75,6 +75,9 @@ input[type=text], input[type=password] {
   float: right;
   border-style: none;
 }
+.button:hover {
+  background-color: #00a19b;
+}
 .button_left {
   width: 90px;
   height: 44px;
@@ -85,6 +88,9 @@ input[type=text], input[type=password] {
   color: #fff;
   float: left;
   border-style: none;
+}
+.button_left:hover {
+  background-color: #00a19b;
 }
 a:link, a:active, a:visited {
   color: #505050;
