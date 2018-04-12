@@ -225,7 +225,7 @@ p.comment {
 }
 
 footer {
-  background-color: #044C7F;
+  background-color: #04619d;
   width: 100%;
   float: left;
   color: white;
@@ -244,6 +244,20 @@ footer {
 
 .flytte {
 margin-left: 150px;
+}
+
+.tekst_footer {
+  line-height: 30px;
+  font-style:
+}
+
+.footer_tekst {
+  line-height: 30px;
+  font-style:
+}
+
+.tekst_footer:hover {
+  color: #00a19b;
 }
 
 #socialmedia { /* Definer og placer */
