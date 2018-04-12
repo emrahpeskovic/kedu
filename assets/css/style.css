@@ -404,7 +404,8 @@ p.bruger-beskrivelse {
   background: #E4ECF2;
   display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   border-radius: 20px;
 }
@@ -420,7 +421,7 @@ p.bruger-beskrivelse {
 }
 #section_aarsplaner {
   flex: 1;
-  background-color: #E4ECF2;
+  background-color: red;
   margin: 20px 10px 0px 0px;
   border-radius: 20px;
   box-sizing: border-box;
@@ -430,17 +431,16 @@ p.bruger-beskrivelse {
 }
 #section_emnedage {
   flex: 1;
-  background-color: #E4ECF2;
-  margin: 20px 10px 0px 0px;
+  background-color: red;
   border-radius: 20px;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 20px 0px 0px 10px;
 }
 #section-lektionsplaner {
-  background: #E4ECF2;
+  background: red;
   display: flex;
   flex-direction: row wrap;
   justify-content: space-evenly;
@@ -623,21 +623,26 @@ p.bruger-beskrivelse {
 
 /**********************************************/
 .kursus {
-  max-width: 421px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 420px;
   min-height: 180px;
   background-color: #f1f1f2;
   margin: 20px 20px 0px 20px;
   border-radius: 20px;
-  padding: 20px;
   box-sizing: border-box;
 }
 .kursus-billede {
-  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
 }
-.kursus-beskrivelse {
-  width: 245px;
-  float: right;
-  padding-left: 10px;
+p.kursus-beskrivelse {
+  max-width: 270px;
+  padding: 10px;
+  box-sizing: border-box;
   font-family: "Lato-Regular";
 }
 .lektionsplan {
@@ -688,7 +693,6 @@ h1.boks-titel {
   color: #044C7F;
   font-family: "Lato-Regular";
   font-size: 24px;
-  text-align: center;
   padding: 20px;
 }
 .boks-tekst_right {
@@ -696,7 +700,6 @@ h1.boks-titel {
   color: #044C7F;
   font-family: "Lato-Regular";
   font-size: 24px;
-  text-align: center;
   padding: 20px;
 }
 .img-margin {
