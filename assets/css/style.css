@@ -8,111 +8,124 @@ body {
 }
 
 @font-face {
-  font-family: "Lato-Regular";
-  src: url("../fonts/Lato-Regular.ttf")
+font-family: "Lato-Regular";
+src: url("../fonts/Lato-Regular.ttf")
 }
 
 @font-face {
-  font-family: "CabinSketch-Regular";
-  src: url("../fonts/CabinSketch-Regular.ttf")
+font-family: "CabinSketch-Regular";
+src: url("../fonts/CabinSketch-Regular.ttf")
+}
+
+@font-face {
+font-family: "Lato-Light";
+src: url("../fonts/Lato-Light.ttf")
 }
 
 .logo {
-  margin-left: 2%;
-  margin-top: 2%;
+margin-left: 2%;
+margin-top: 2%;
 }
 
 li.active {
-  opacity: 0.5;
+opacity: 0.5;
 }
 
 nav {
-  height: auto;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+height: auto;
+width: 100%;
+display: flex;
+justify-content: flex-end;
 }
 
 #nav_undersidebar {
-  height: 20px;
-  width: 100%;
-  background-color: #044C7F;
-  margin: auto;
+height: 20px;
+width: 100%;
+background-color: #044C7F;
+margin: auto;
 }
 
 li a {
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  font-family: "Lato-Regular";
+text-decoration: none;
+font-size: 20px;
+color: white;
+font-family: "Lato-Regular";
 }
 
 
 li {
-  display: flex;
-  list-style: none;
-  width: 160px;
-  height: 40px;
-  background-color: #044C7F;
-  margin: 0px 3px 0px 0px;
-  justify-content: center;
-  align-items: center;
-  transition:all 0.3s ease;
-  opacity: 1;
-  box-sizing: border-box;
+display: flex;
+list-style: none;
+width: 160px;
+height: 40px;
+background-color: #044C7F;
+margin: 0px 3px 0px 0px;
+justify-content: center;
+align-items: center;
+transition:all 0.3s ease;
+opacity: 1;
+box-sizing: border-box;
 }
 
 li:hover {
-  opacity: 0.5;
+opacity: 0.5;
 }
 
 li:last-child {
-  margin-right: 0;
+margin-right: 0;
 }
 
 ul {
-  display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 
 .headerpicture {
-  display: flex;
-  width: 100%;
-  position: relative;
+display: flex;
+width: 100%;
+position: relative;
 }
 
 .picture-container {
-  position: relative;
-  text-align: center;
+position: relative;
+text-align: center;
 }
 
 .picture-container .text-on-picture {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  color: #444;
-  font-family: "Lato-Regular";
-  font-weight: bold;
-  font-size: 30px;
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+font-family: "Lato-Regular";
+font-weight: bold;
+font-size: 30px;
 }
 
 .picture-container:hover .text-on-picture {
-  opacity: 1;
+opacity: 1;
 }
 
 .text-on-picture {
-  transition:all 0.3s ease;
+transition:all 0.3s ease;
+text-shadow: 3px 3px 3px #666;
+color: white;
 }
 
 .kasse1 {
-  background-color: white;
-  height: 120px;
-  padding: 30px;
-  font-family: "Lato-Regular";
-  font-size: 0.7vw;
+background-color: white;
+height: 120px;
+padding: 30px;
+font-family: "Lato-Light";
+font-weight: 500;
+font-size: 12px;
 }
+
+.nyhedtekst {
+margin-top: 10px;
+}
+
+
 header#header-forside {
   background: url("../images/header-images/header-forside.jpg") center no-repeat;
   background-size: cover;
@@ -638,7 +651,7 @@ p.bruger-beskrivelse {
   transition:all 0.3s ease;
 }
 .opgave-boks {
-  width: 450px;
+  width: 400px;
   height: 300px;
   background-color: #044C7F;
   border-radius: 20px 20px 0px 0px;
@@ -721,9 +734,9 @@ h1.boks-titel {
   border-radius: 20px;
   flex: 1;
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   padding-bottom: 20px;
   box-sizing: border-box;
 }
