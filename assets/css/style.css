@@ -276,14 +276,12 @@ margin-left: 150px;
 }
 .forum-container {
   width: 100%;
-  background-color: #E4ECF2;
+  background-color: #f1f1f2;
   border-radius: 20px;
   margin: 0px 20px 20px 20px;
-  box-shadow: 2px 2px 5px #777777;
-
 }
 .traad-container {
-  background-color: #f1f1f2;
+  background-color: white;
   margin: 20px;
   padding: 20px;
 }
@@ -400,7 +398,7 @@ p.bruger-beskrivelse {
   padding: 20px 20px 20px 20px;
   box-sizing: border-box;
   display: flex;
-  background-color: #B4D0E0;
+  background-color: #E4ECF2;;
 }
 #aside-kurser {
   background: #E4ECF2;
@@ -613,12 +611,13 @@ p.bruger-beskrivelse {
   background-color: red;
   border-radius: 20px 20px 0px 0px;
 }
-div a {
+#opgaver-container .img-opgave1, .img-opgave2, .img-opgave3, .img-opgave4, .img-opgave5, .img-opgave6, .img-opgave7, .img-opgave8, .img-opgave9, .img-opgave10, .img-opgave11, .img-opgave12, a {
   font-family: "CabinSketch-Regular";
   text-decoration: none;
 }
 
-div a:hover {
+
+#opgaver-container .img-opgave1:hover, .img-opgave2:hover, .img-opgave3:hover, .img-opgave4:hover, .img-opgave5:hover, .img-opgave6:hover, .img-opgave7:hover, .img-opgave8:hover, .img-opgave9:hover, .img-opgave10:hover, .img-opgave11:hover, .img-opgave12:hover {
   opacity: 0.5;
 }
 
