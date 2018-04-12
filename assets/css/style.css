@@ -237,23 +237,34 @@ p.beskrivelse {
   float: left;
   margin: 10px 0px 0px 10px;
   width: 360px;
+  font-family: "Lato-Light"
 }
 
 p.overskrift {
   float: left;
   /* margin: 15px 0px 0px 10px; */
-  font-weight: bold;
+  font-weight: 600;
   padding: 0px;
   width: 360px;
   margin: 10px 0px 0px 10px;
+  font-family: "Lato-Regular"
 }
 
-p.comment {
+a.comment {
   float: right;
-  margin: 10px 30px 0px 10px;
+  margin: 10px 15px 0px 15px;
   background-color: #044C7F;
-  padding: 4px;
   color: white;
+  text-decoration: none;
+  transition:all 0.3s ease;
+}
+
+.boks-person a {
+  padding: 8px;
+}
+
+a.comment:hover {
+  opacity: 0.5;
 }
 
 .tilpas {
@@ -663,7 +674,7 @@ p.bruger-beskrivelse {
   background-color: red;
   border-radius: 20px 20px 0px 0px;
 }
-#opgaver-container .img-opgave1, .img-opgave2, .img-opgave3, .img-opgave4, .img-opgave5, .img-opgave6, .img-opgave7, .img-opgave8, .img-opgave9, .img-opgave10, .img-opgave11, .img-opgave12, a {
+#opgaver-container .img-opgave1, .img-opgave2, .img-opgave3, .img-opgave4, .img-opgave5, .img-opgave6, .img-opgave7, .img-opgave8, .img-opgave9, .img-opgave10, .img-opgave11, .img-opgave12 {
   font-family: "CabinSketch-Regular";
   text-decoration: none;
 }
