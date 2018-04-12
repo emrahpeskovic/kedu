@@ -17,6 +17,11 @@ body {
   src: url("../fonts/CabinSketch-Regular.ttf")
 }
 
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/Lato-Light.ttf")
+}
+
 .logo {
   margin-left: 2%;
   margin-top: 2%;
@@ -92,7 +97,6 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  color: #444;
   font-family: "Lato-Regular";
   font-weight: bold;
   font-size: 30px;
@@ -104,15 +108,24 @@ ul {
 
 .text-on-picture {
   transition:all 0.3s ease;
+  text-shadow: 3px 3px 3px #666;
+  color: white;
 }
 
 .kasse1 {
   background-color: white;
   height: 120px;
   padding: 30px;
-  font-family: "Lato-Regular";
-  font-size: 0.7vw;
+  font-family: "Lato-Light";
+  font-weight: 500;
+  font-size: 12px;
 }
+
+.nyhedtekst {
+  margin-top: 10px;
+}
+
+
 header#header-forside {
   background: url("../images/header-images/header-forside.jpg") center no-repeat;
   background-size: cover;
@@ -250,7 +263,7 @@ p.comment {
 }
 
 footer {
-  background-color: #04619d;
+  background-color: #044C7F;
   width: 100%;
   float: left;
   color: white;
@@ -269,20 +282,6 @@ footer {
 
 .flytte {
 margin-left: 150px;
-}
-
-.tekst_footer {
-  line-height: 30px;
-  font-style:
-}
-
-.footer_tekst {
-  line-height: 30px;
-  font-style:
-}
-
-.tekst_footer:hover {
-  color: #00a19b;
 }
 
 #socialmedia { /* Definer og placer */
@@ -443,8 +442,7 @@ p.bruger-beskrivelse {
   background: #E4ECF2;
   display: flex;
   flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   border-radius: 20px;
 }
@@ -460,7 +458,7 @@ p.bruger-beskrivelse {
 }
 #section_aarsplaner {
   flex: 1;
-  background-color: red;
+  background-color: #E4ECF2;
   margin: 20px 10px 0px 0px;
   border-radius: 20px;
   box-sizing: border-box;
@@ -470,16 +468,17 @@ p.bruger-beskrivelse {
 }
 #section_emnedage {
   flex: 1;
-  background-color: red;
+  background-color: #E4ECF2;
+  margin: 20px 10px 0px 0px;
   border-radius: 20px;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 20px 0px 0px 10px;
 }
 #section-lektionsplaner {
-  background: red;
+  background: #E4ECF2;
   display: flex;
   flex-direction: row wrap;
   justify-content: space-evenly;
@@ -637,19 +636,7 @@ p.bruger-beskrivelse {
   color: #fff;
   transition:all 0.3s ease;
 }
-.opgave-boks {
-  width: 450px;
-  height: 300px;
-  background-color: #044C7F;
-  border-radius: 20px 20px 0px 0px;
-  margin: 20px;
-}
-.opgave-billede {
-  width: 100%;
-  height: 190px;
-  background-color: red;
-  border-radius: 20px 20px 0px 0px;
-}
+
 #opgaver-container .img-opgave1, .img-opgave2, .img-opgave3, .img-opgave4, .img-opgave5, .img-opgave6, .img-opgave7, .img-opgave8, .img-opgave9, .img-opgave10, .img-opgave11, .img-opgave12, a {
   font-family: "CabinSketch-Regular";
   text-decoration: none;
@@ -662,26 +649,21 @@ p.bruger-beskrivelse {
 
 /**********************************************/
 .kursus {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 420px;
+  max-width: 421px;
   min-height: 180px;
   background-color: #f1f1f2;
   margin: 20px 20px 0px 20px;
   border-radius: 20px;
+  padding: 20px;
   box-sizing: border-box;
 }
 .kursus-billede {
-  padding: 10px;
-  box-sizing: border-box;
-  width: 150px;
-  height: 150px;
+  float: left;
 }
-p.kursus-beskrivelse {
-  max-width: 270px;
-  padding: 10px;
-  box-sizing: border-box;
+.kursus-beskrivelse {
+  width: 245px;
+  float: right;
+  padding-left: 10px;
   font-family: "Lato-Regular";
 }
 .lektionsplan {
@@ -697,7 +679,7 @@ p.kursus-beskrivelse {
   background-color: brown;
   border-radius: 20px 20px 0px 0px;
 }
-.boks-hvidtekst {
+.lektionsplan-beskrivelse {
   color: #fff;
   font-family: "Lato-Regular";
   font-size: 16px;
@@ -732,6 +714,7 @@ h1.boks-titel {
   color: #044C7F;
   font-family: "Lato-Regular";
   font-size: 24px;
+  text-align: center;
   padding: 20px;
 }
 .boks-tekst_right {
@@ -739,6 +722,7 @@ h1.boks-titel {
   color: #044C7F;
   font-family: "Lato-Regular";
   font-size: 24px;
+  text-align: center;
   padding: 20px;
 }
 .img-margin {
