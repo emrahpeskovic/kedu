@@ -173,7 +173,7 @@ justify-content: center;
 padding: 40px 0px 40px 0px;
 }
 
-.boks {
+.boks-person {
   width: 650px;
   height: 180px;
   background-color: white;
@@ -183,7 +183,7 @@ padding: 40px 0px 40px 0px;
   box-shadow: 2px 2px 3px #c4c4c4;
 }
 
-.boks h2 {
+.boks-person h2 {
   float: left;
   margin: 5px 0px 0px 10px;
   padding: 0px;
@@ -265,14 +265,12 @@ margin-left: 150px;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 100px 20px 100px;
+  padding: 20px 20px 20px 20px;
   box-sizing: border-box;
   background-color: #B4D0E0;
-
 }
 .forum-container {
-  max-width: 400px;
-  height: 100px;
+  width: 100%;
   background-color: #E4ECF2;
   border-radius: 20px;
   margin: 0px 20px 20px 20px;
@@ -280,26 +278,69 @@ margin-left: 150px;
 .traad-container {
   background-color: #f1f1f2;
   margin: 20px;
+  padding: 20px;
 }
 h1.traad-titel {
   color: #6b6b6b;
   font-family: "Lato-Regular";
   font-size: 20px;
-  padding: 20px;
-  box-sizing: border-box;
+  padding-bottom: 10px;
 }
 #emne-container {
-  height: 600px;
   background-color: #E4ECF2;
   border-radius: 20px;
 }
 .col-1 {
   flex: 1;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 0px;
 }
 .col-2 {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 10px;
+}
+p.forum-beskrivelse {
+  color: #044C7F;
+  font-family: "Lato-Regular";
+  font-size: 16px;
+}
+p.forum-pagenumber {
+  text-align: center;
+  color: #6b6b6b;
+  font-family: "Lato-Regular";
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.post-container {
+  max-width: 1100px;
   background-color: red;
+  display: flex;
+}
+.post-eksempel {
+  flex: 4;
+  background-color: green;
+}
+.post-bruger {
+  flex: 1;
+  background-color: blue;
+}
+#wrapper-traad {
+  width: 100%;
+  display: flex;
+  background-color: #B4D0E0;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 /**************************MATERIALER*************************/
 #wrapper {
@@ -358,7 +399,155 @@ h1.traad-titel {
   padding: 20px;
   box-sizing: border-box;
 }
-/* ******************************************* */
+/* ********************************************/
+/**************OPGAVER*************************/
+#wrapper-opgaver {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #B4D0E0;
+}
+#opgaver-container {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.img-opgave1 {
+  background-image: url("../images/opgaver/001.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave2 {
+  background-image: url("../images/opgaver/002.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave3 {
+  background-image: url("../images/opgaver/003.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave4 {
+  background-image: url("../images/opgaver/004.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave5 {
+  background-image: url("../images/opgaver/005.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave6 {
+  background-image: url("../images/opgaver/006.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave7 {
+  background-image: url("../images/opgaver/007.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave8 {
+  background-image: url("../images/opgaver/008.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave9 {
+  background-image: url("../images/opgaver/009.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave10 {
+  background-image: url("../images/opgaver/010.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave11 {
+  background-image: url("../images/opgaver/011.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+.img-opgave12 {
+  background-image: url("../images/opgaver/012.png");
+  width: 250px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato-Regular";
+  font-size: 26px;
+  color: #fff;
+}
+/**********************************************/
 .kursus {
   max-width: 421px;
   min-height: 180px;
@@ -409,7 +598,16 @@ h1.boks-titel {
   align-items: center;
   border-radius: 20px 20px 0px 0px;
 }
-.boks-beskrivelse_left {
+.boks {
+  background-color: #E4ECF2;
+  border-radius: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.boks-tekst_left {
   width: 40%;
   color: #044C7F;
   font-family: "Lato-Regular";
@@ -417,11 +615,24 @@ h1.boks-titel {
   text-align: center;
   padding: 20px;
 }
-.boks-beskrivelse_right {
+.boks-tekst_right {
   width: 40%;
   color: #044C7F;
   font-family: "Lato-Regular";
   font-size: 24px;
   text-align: center;
   padding: 20px;
+}
+.img-margin {
+  margin: 20px 10px 0px 10px;
+}
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
