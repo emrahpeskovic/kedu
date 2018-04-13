@@ -866,19 +866,67 @@ a {
   align-items: center;
   justify-content: center;
 }
+h1.klasse-titel {
+  font-family: "Lato-Regular";
+  font-size: 22px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 .opgave-img {
   width: 400px;
   height: 250px;
 }
 .opgave-row1 {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
 }
 .opgave-row2 {
   display: flex;
-  flex-direction: row;
+  flex: 2;
+  flex-direction: column;
   flex-wrap: wrap;
+}
+.tekstboks-opgave {
+  margin: 20px 0px 0px 20px;
+  font-family: "Lato-Light";
+  font-size: 18px;
+  line-height: 30px;
+}
+p.opg-beskrivelse {
+  margin: 0px 20px 10px 0px;
+}
+.img-download {
+  width: 80px;
+  height: auto;
+  background-color: #044C7F;
+  float: right;
+  margin: 40px 50px 0px 0px;
+}
+.boksleft-download {
+  background-color: #044C7F;
+  min-width: 400px;
+  height: 200px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 20px;
+  font-family: "Lato-Regular";
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.downloadico {
+  text-align: right;
+  width: 20px;
+  height: auto;
+}
+.kommentarerico {
+  text-align: right;
+  width: 20px;
+  height: auto;
 }
 .row-1 {
   display: flex;
@@ -890,6 +938,12 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.opgave-imgtilpas {
+  max-width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 20px;
 }
 .brugernavn {
   color: #6b6b6b;
