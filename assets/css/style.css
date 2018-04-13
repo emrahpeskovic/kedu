@@ -436,7 +436,7 @@ p.forum-pagenumber {
 }
 
 .forum-pagenumber a {
-  color: black;
+  color: #666;
   font-size: 25px;
   font-family: CabinSketch-Regular;
 }
