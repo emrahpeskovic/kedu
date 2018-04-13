@@ -787,13 +787,21 @@ p.kursus-beskrivelse {
 .boks-hvidtekst {
   color: #fff;
   font-family: "Lato-Regular";
-  font-size: 30px;
+  font-size: 18px;
   box-sizing: border-box;
   padding: 10px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.p_materiale {
+  font-family: "Lato-Regular";
+  font-size: 15px;
+  color: white;
+  margin: 20px 0px 10px 20px;
+}
+
 .boks-opgtekst {
   color: #fff;
   font-family: "CabinSketch-Regular";
