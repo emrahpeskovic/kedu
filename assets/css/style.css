@@ -410,6 +410,10 @@ p.forum-pagenumber {
   flex-direction: column;
   justify-content: center;
 }
+.bruger-img {
+  width: 250px;
+  height: auto;
+}
 #wrapper-traad {
   background-color: #B4D0E0;
   padding: 20px;
