@@ -663,7 +663,7 @@ p.bruger-beskrivelse {
 }
 .opgave-boks {
   width: 400px;
-  height: 300px;
+  height: 250px;
   background-color: #044C7F;
   border-radius: 20px 20px 0px 0px;
   margin: 20px;
@@ -697,7 +697,6 @@ p.bruger-beskrivelse {
   box-sizing: border-box;
 }
 .kursus-billede {
-  padding: 10px;
   box-sizing: border-box;
   width: 150px;
   height: 150px;
@@ -723,9 +722,12 @@ p.kursus-beskrivelse {
 }
 .boks-hvidtekst {
   color: #fff;
-  font-family: "Lato-Regular";
-  font-size: 16px;
-  padding: 10px;
+  font-family: "CabinSketch-Regular";
+  font-size: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1.boks-titel {
   width: 100%;
@@ -741,7 +743,7 @@ h1.boks-titel {
   border-radius: 20px 20px 0px 0px;
 }
 .boks {
-  background-color: #E4ECF2;
+  background-color: #f1f1f2;
   border-radius: 20px;
   flex: 1;
   display: flex;
@@ -765,13 +767,34 @@ h1.boks-titel {
   font-size: 24px;
   padding: 20px;
 }
-.img-margin {
-  margin: 20px 10px 0px 10px;
+.opgave-container {
+  width: 400px;
+  height: 310px;
+  margin: 20px 0px 20px 15px;
+}
+.opgave-container a {
+  text-decoration: none;
+}
+.opgave-beskrivelse {
+  width: 400px;
+  height: 60px;
+  background-color: #044C7F;
+  font-family:"CabinSketch-Regular";
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opgave-img {
+  width: 400px;
+  height: 250px;
 }
 .row-1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 20px 0px 0px 0px;
 }
 .row-2 {
   display: flex;
