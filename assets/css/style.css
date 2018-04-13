@@ -185,12 +185,54 @@ header#header-minprofil {
   box-sizing: border-box;
   background-color: rgb(4,76,127, 0.6)
 }
+
+
+
+
+
+
 h1#page-title {
   color: #fff;
   font-size: 40px;
   font-family: "Lato-Regular";
   margin: 0;
 }
+
+.choices h2 {
+  position: absolute;
+  right: 180px;
+  bottom: 20px;
+  float: right;
+  color: grey;
+  background-color: white;
+  padding: 10px 90px 10px 10px;
+  border-radius: 15px;
+}
+
+
+.fa-caret-square-o-down {
+  position: absolute;
+  right: 130px;
+  bottom: 20px;
+  float: right;
+  color: grey;
+  padding: 10px 75px 10px 10px;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.search h2 {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  float: right;
+  color: grey;
+  background-color: white;
+  padding: 10px 90px 10px 10px;
+  border-radius: 15px;
+}
+x
+
 #container {
   background-color: #216393;
   width: 100%;
@@ -386,6 +428,13 @@ p.forum-pagenumber {
   font-size: 18px;
   padding-bottom: 20px;
 }
+
+.forum-pagenumber a {
+  color: black;
+  font-size: 25px;
+  font-family: CabinSketch-Regular;
+}
+
 .post-container {
   display: flex;
   flex-direction: row;
