@@ -10,14 +10,14 @@
       <div id="logo"></div>
         <p id="text">KEDU er KUBOs online studieplan platform. Hvis du er lære kan du her inde finde vejledninger, øvelser, videoer og inspiration til din undervisning.<br></br> Du kan også dele din egen viden og dele dine ideer med andre lære over hele verden.Visionen bag KEDU er at skabe et fælles mødested for lærere og undervisere over hele verden.</p>
         <div id="input-container">
-          <form action="index.html">
-          <input type="text" placeholder="E-mail" required>
-          <input type="password" placeholder="Password" required>
+          <form id="action" action="index.html">
+          <input id="email" type="text" placeholder="E-mail" required>
+          <input id="password" type="password" placeholder="Password" required>
           <div id="accountlinks">
             <li><a href="resetpassword.html">Glemt password?</a></li>
             <li><a href="signup.html">Opret bruger</a></li>
           </div>
-          <input type="submit" value="Log ind" class="button">
+          <input type="button" value="Log ind" class="button" onClick="checkInfo()">
         </form>
 
 
@@ -27,6 +27,6 @@
           </div> -->
         </div>
     </div>
-
+    <script src="assets/js/javascript.js" charset="utf-8"></script>
   </body>
   </html>
