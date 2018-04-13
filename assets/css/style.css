@@ -802,6 +802,27 @@ p.kursus-beskrivelse {
   margin: 20px 0px 10px 20px;
 }
 
+.download_div {
+  height: 20px;
+  width: 150px;
+  /* background-color: red; */
+}
+.download_buttom {
+  position: absolute;
+  max-width: 20px;
+  height: auto;
+  left: 527px;
+  bottom: -132px;
+}
+
+.kommentarer_buttom {
+  position: absolute;
+  max-width: 20px;
+  height: auto;
+  left: 545px;
+  bottom: -173px;
+}
+
 .boks-opgtekst {
   color: #fff;
   font-family: "CabinSketch-Regular";
