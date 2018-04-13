@@ -810,6 +810,16 @@ h1.boks-titel {
   width: 400px;
   height: 250px;
 }
+.opgave-row1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.opgave-row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .row-1 {
   display: flex;
   flex-direction: row;
