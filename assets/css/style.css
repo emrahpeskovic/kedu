@@ -185,6 +185,12 @@ header#header-minprofil {
   box-sizing: border-box;
   background-color: rgb(4,76,127, 0.6)
 }
+
+
+
+
+
+
 h1#page-title {
   color: #fff;
   font-size: 40px;
@@ -225,7 +231,7 @@ h1#page-title {
   padding: 10px 90px 10px 10px;
   border-radius: 15px;
 }
-
+x
 
 #container {
   background-color: #216393;
@@ -422,6 +428,13 @@ p.forum-pagenumber {
   font-size: 18px;
   padding-bottom: 20px;
 }
+
+.forum-pagenumber a {
+  color: black;
+  font-size: 25px;
+  font-family: CabinSketch-Regular;
+}
+
 .post-container {
   display: flex;
   flex-direction: row;
