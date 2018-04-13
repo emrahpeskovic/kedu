@@ -186,6 +186,12 @@ header#header-minprofil {
   background-color: rgb(4,76,127, 0.6)
 }
 
+.oploadbuttom {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  right: 20px;
+}
 
 
 
@@ -811,6 +817,11 @@ h1.boks-titel {
   align-items: center;
   border-radius: 20px 20px 0px 0px;
 }
+
+a {
+  text-decoration: none;
+}
+
 .boks {
   background-color: #f1f1f2;
   border-radius: 20px;
