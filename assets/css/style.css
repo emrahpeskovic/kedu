@@ -668,10 +668,12 @@ p.bruger-beskrivelse {
   border-radius: 20px 20px 0px 0px;
   margin: 20px;
 }
+.opgave-boks a {
+  text-decoration: none;
+}
 .opgave-billede {
   width: 100%;
   height: 190px;
-  background-color: red;
   border-radius: 20px 20px 0px 0px;
 }
 #opgaver-container .img-opgave1, .img-opgave2, .img-opgave3, .img-opgave4, .img-opgave5, .img-opgave6, .img-opgave7, .img-opgave8, .img-opgave9, .img-opgave10, .img-opgave11, .img-opgave12 {
@@ -725,6 +727,7 @@ p.kursus-beskrivelse {
   font-family: "CabinSketch-Regular";
   font-size: 30px;
   box-sizing: border-box;
+  padding: 10px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
