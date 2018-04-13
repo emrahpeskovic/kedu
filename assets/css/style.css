@@ -191,6 +191,42 @@ h1#page-title {
   font-family: "Lato-Regular";
   margin: 0;
 }
+
+.choices h2 {
+  position: absolute;
+  right: 180px;
+  bottom: 20px;
+  float: right;
+  color: grey;
+  background-color: white;
+  padding: 10px 90px 10px 10px;
+  border-radius: 15px;
+}
+
+
+.fa-caret-square-o-down {
+  position: absolute;
+  right: 130px;
+  bottom: 20px;
+  float: right;
+  color: grey;
+  padding: 10px 75px 10px 10px;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.search h2 {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  float: right;
+  color: grey;
+  background-color: white;
+  padding: 10px 90px 10px 10px;
+  border-radius: 15px;
+}
+
+
 #container {
   background-color: #216393;
   width: 100%;
