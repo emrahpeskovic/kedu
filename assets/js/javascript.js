@@ -36,3 +36,13 @@ function checkInfo() {
       location.href = "index.html";
   }
 }
+
+
+var delay;
+function scrollToTop() {
+	if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+		window.scrollBy(0,-50);
+		delay=setTimeout('scrollToTop()',10);
+	}
+	else clearTimeout(delay);
+}

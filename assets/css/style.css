@@ -329,19 +329,28 @@ footer {
   font-family: "Lato-Regular";
 }
 
-.flex {
-  /* padding-left: 100px; */
-  display: flex;
+.scrolltop {
+  position: relative;
+  box-sizing: content-box;
+  padding-right: 30px;
+}
+
+.scrolltop img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.scrolltop:hover img {
+  opacity: 0.5;
 }
 
 .justify-center {
-  justify-content: center;
-  padding: 20px;
+  display: flex;
+  justify-content:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.flytte {
-margin-left: 150px;
-}
 
 .tekst_footer {
   line-height: 30px;
@@ -350,7 +359,16 @@ margin-left: 150px;
 
 .footer_tekst {
   line-height: 30px;
-  font-style:
+}
+
+.flytte {
+  width: 150px;
+  order: 2;
+}
+
+.flytte2 {
+  width: 150px;
+  order: 1;
 }
 
 .tekst_footer:hover {
@@ -581,7 +599,7 @@ p.bruger-beskrivelse {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #B4D0E0;
+  background-color: #E4ECF2;
 }
 #opgaver-container {
   max-width: 1100px;
@@ -844,7 +862,6 @@ h1.boks-titel {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px 20px 0px 0px;
 }
 
 a {
@@ -852,7 +869,7 @@ a {
 }
 
 .boks {
-  background-color: #f1f1f2;
+  background-color: #E4ECF2;
   border-radius: 20px;
   flex: 1;
   display: flex;
@@ -860,6 +877,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 20px;
+  padding-top: 20px;
   box-sizing: border-box;
 }
 .boks-tekst_left {
