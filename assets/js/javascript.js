@@ -37,12 +37,21 @@ function checkInfo() {
   }
 }
 
-
-var delay;
+//scrill til toppen af siden//
+var timeOut;
 function scrollToTop() {
 	if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
 		window.scrollBy(0,-50);
-		delay=setTimeout('scrollToTop()',10);
+		timeOut=setTimeout('scrollToTop()',10);
 	}
-	else clearTimeout(delay);
+	else clearTimeout(timeOut);
+}
+
+//Forum ikke//
+
+function submitPost() {
+  var div = document.createElement("div");
+  var inputValue = getElementById('textValue').value;
+  var text = document.TextNode(inputValue);
+
 }
