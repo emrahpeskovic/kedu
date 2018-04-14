@@ -249,12 +249,16 @@ header#header-minprofil {
 
 
 
-h1#page-title {
+h1#page-title, h1#page-title a {
   color: #fff;
   font-size: 40px;
   font-family: "Lato-Regular";
   margin: 0;
 }
+h1#page-title a:hover {
+  color: #f2f2f2;
+}
+
 
 .filter_search {
   position: absolute;
