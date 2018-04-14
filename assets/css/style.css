@@ -127,6 +127,18 @@ font-size: 12px;
 margin-top: 10px;
 }
 
+.questionTitle {
+  width: 100%;
+  height: 70px;
+  background-color: #044C7F;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: "Lato-Regular";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 header#header-forside {
   background: url("../images/header-images/header-forside.jpg") center no-repeat;
@@ -186,6 +198,38 @@ header#header-minprofil {
   justify-content: flex-start;
   box-sizing: border-box;
   background-color: rgb(4,76,127, 0.6)
+}
+
+.logout {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 2%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  transition: all 0.3s ease;
+  background-color: #044C7F;
+  opacity: 0.9;
+}
+
+.logout:hover {
+  opacity: 0.5;
+}
+
+.logout h2 {
+  font-family: "Lato-Light";
+  color: white;
+  text-align: center;
+  width: 100px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+
+.logout  img {
+  width: 30px;
 }
 
 .oploadbuttom {
@@ -907,6 +951,7 @@ h1.boks-titel {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
+  border-radius: 20px 20px 0px 0px;
 }
 
 
@@ -916,7 +961,6 @@ a {
 
 .boks {
   background-color: #E4ECF2;
-  border-radius: 20px;
   flex: 1;
   display: flex;
   flex-direction:row;
@@ -944,7 +988,14 @@ a {
   width: 400px;
   height: 310px;
   margin: 20px 0px 20px 15px;
+  transition: all 0.3s ease;
 }
+
+.opgave-container:hover{
+  opacity: 0.5;
+  box-shadow: inset 0 0 0 25px black;
+}
+
 .opgave-container a {
   text-decoration: none;
 }
