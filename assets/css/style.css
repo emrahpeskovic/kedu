@@ -89,6 +89,7 @@ position: relative;
 .picture-container {
 position: relative;
 text-align: center;
+cursor: pointer;
 }
 
 .picture-container .text-on-picture {
@@ -764,6 +765,7 @@ p.bruger-beskrivelse {
 
 #opgaver-container .img-opgave1:hover, .img-opgave2:hover, .img-opgave3:hover, .img-opgave4:hover, .img-opgave5:hover, .img-opgave6:hover, .img-opgave7:hover, .img-opgave8:hover, .img-opgave9:hover, .img-opgave10:hover, .img-opgave11:hover, .img-opgave12:hover {
   opacity: 0.5;
+  transform: scale(1.2);
 }
 
 /**********************************************/
