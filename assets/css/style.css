@@ -92,6 +92,7 @@ text-align: center;
 cursor: pointer;
 }
 
+
 .picture-container .text-on-picture {
 position: absolute;
 top: 30%;
@@ -192,9 +193,15 @@ header#header-minprofil {
   max-width: 180px;
   height: auto;
   right: 20px;
+  transition: all 0.3s ease;
 }
 
+.oploadbuttom:hover {
+  opacity: 0.7;
+  transform: scale(0.9);
+  cursor: pointer;
 
+}
 
 
 
@@ -255,6 +262,7 @@ x
 
 .image_section1:hover {
   opacity: 0.8;
+  transform: scale(0.95);
 }
 
 .section_container {
@@ -273,6 +281,11 @@ padding: 40px 0px 40px 0px;
   padding: 3px; /* Lille kant rundt om billedet i boksen */
   margin: 10px 10px 10px 10px;
   box-shadow: 2px 2px 3px #c4c4c4;
+  transition: all 0.3s ease;
+}
+
+.boks-person:hover {
+  transform: scale(0.95);
 }
 
 .boks-person h2 {
