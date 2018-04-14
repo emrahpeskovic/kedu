@@ -342,6 +342,9 @@ padding: 40px 0px 40px 0px;
   box-shadow: 2px 2px 3px #c4c4c4;
   transition: all 0.3s ease;
 }
+.boks-person a {
+  color: black;
+}
 
 .boks-person:hover {
   transform: scale(0.95);
@@ -354,7 +357,6 @@ padding: 40px 0px 40px 0px;
   padding: 0px;
   width: 360px;
 }
-
 p.beskrivelse {
   float: left;
   margin: 10px 0px 0px 10px;
@@ -402,11 +404,14 @@ footer {
   color: white;
   font-family: "Lato-Regular";
 }
-
+#topscroll {
+  margin: 10px 0px 0px 10px;
+  height: 20px;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+}
 .scrolltop {
-  position: relative;
-  box-sizing: content-box;
-  padding-right: 30px;
 }
 
 .scrolltop img {
@@ -450,15 +455,16 @@ footer {
 .tekst_footer:hover {
   color: #00a19b;
 }
-
 #socialmedia { /* Definer og placer */
-  height: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
+  height: 40px;
   width: 100%;
   background-color: #044C7F;
-  display: block;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.fa, .fa-linkedin, .fa, .fa-facebook, .fa, .fa-instagram, .fa, .fa-youtube, .fa, .fa-twitter {
+  margin: 13px 0px 0px 15px;
 
 }
 #socialmedia a { /* Ikoner farve */
@@ -953,8 +959,6 @@ h1.boks-titel {
   transition: all 0.3s ease;
   border-radius: 20px 20px 0px 0px;
 }
-
-
 a {
   text-decoration: none;
 }
@@ -1010,9 +1014,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-
-
-
 h1.klasse-titel {
   font-family: "Lato-Regular";
   font-size: 22px;
