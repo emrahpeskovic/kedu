@@ -279,6 +279,7 @@ h1#page-title a:hover {
   box-shadow: 2px 2px 2px #c4c4c4;
   cursor: pointer;
   transition: all 0.3s ease;
+  height: 25px;
 }
 
 .filter:hover {
@@ -288,13 +289,13 @@ h1#page-title a:hover {
 .filter h2 {
   font-family: "Lato-Light";
   margin:auto;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 200;
 }
 
 .fa-caret-square-o-down {
   font-size: 20px;
-  margin: auto;
+  padding: 0px 20px 10px 0px;
   color: #044C7F;
 }
 
@@ -902,7 +903,14 @@ p.bruger-beskrivelse {
   border-radius: 20px;
   box-sizing: border-box;
   padding: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+.kursus:hover {
+  background:#04619d;
+}
+
 .kursus-billede {
   width: 80px;
   height: 80px;
@@ -917,7 +925,15 @@ p.kursus-beskrivelse {
   background-color: #044C7F;
   border-radius: 20px 20px 0px 0px;
   margin: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+.lektionsplan:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
 .lektionsplan-titel {
   color: white;
   font-family: "Lato-Regular";
@@ -1141,7 +1157,6 @@ p.opg-beskrivelse {
   max-width: 400px;
   height: auto;
   margin-top: 20px;
-  border-radius: 20px;
 }
 .brugernavn {
   color: white;
@@ -1181,7 +1196,7 @@ p.opg-beskrivelse {
   flex: 3;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #f1f1f2;
   border-radius: 20px;
   margin: 20px 0px 0px 20px;
@@ -1211,16 +1226,21 @@ p.opg-beskrivelse {
 .img-userpic {
   width: 250px;
   height: 250px;
-  margin: 20px;
+  margin: 20px 0px 20px 20px;
 }
 .img-upload {
   width: 250px;
   height: auto;
 }
 p.profile-description {
-  font-family: "Lato-Regular";
+  font-family: "Lato-Light";
+  color: #044c7f;
+  font-weight: 600;
   font-size: 16px;
-  color: black;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 20px 20px 0px;
   line-height: 28px;
+  background: white;
+  padding: 20px;
+  flex: 1;
+  border-radius: 0px 20px 20px 0px;
 }
