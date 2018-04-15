@@ -479,6 +479,26 @@ footer {
   color: #00a19b;
 }
 /**************************FORUM******************************/
+.tag-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.meta-tag {
+  width: 90px;
+  height: 27px;
+  background-color: #044c7f;
+  padding: 7px;
+  box-sizing: border-box;
+  font-family: "Lato-Regular";
+  font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px 0px 5px;
+  border-radius: 4px;
+}
 #wrapper-forum {
   width: 100%;
   display: flex;
