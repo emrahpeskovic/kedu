@@ -518,6 +518,18 @@ h1.traad-titel {
   background-color: #E4ECF2;
   border-radius: 20px;
 }
+.mateiraler-col-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 0px 0px;
+}
+.materialer-col-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 10px;
+}
 .col-1 {
   flex: 1;
   display: flex;
@@ -644,12 +656,8 @@ p.bruger-beskrivelse {
   background: #f1f1f2;
   display: flex;
   flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   border-radius: 20px;
-  padding: 0px 0px 20px 0px;
-  box-sizing: border-box;
 }
 #col-2 {
   display: flex;
@@ -869,23 +877,19 @@ p.bruger-beskrivelse {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 420px;
   background-color: #ffffff;
-  margin: 20px 20px 0px 20px;
+  margin: 10px 10px 0px 10px;
   border-radius: 20px;
   box-sizing: border-box;
+  padding: 10px;
 }
 .kursus-billede {
   width: 80px;
   height: 80px;
-  padding: 10px 0px 0px 10px;
 }
 p.kursus-beskrivelse {
-  max-width: 196px;
-  padding: 10px;
-  box-sizing: border-box;
   font-family: "Lato-Regular";
-  border-radius: 20px;
+  color: #000;
 }
 .lektionsplan {
   max-width: 230px;
@@ -893,6 +897,21 @@ p.kursus-beskrivelse {
   background-color: #044C7F;
   border-radius: 20px 20px 0px 0px;
   margin: 10px;
+}
+.lektionsplan-titel {
+  color: white;
+  font-family: "Lato-Regular";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin: 15px 0px 0px 0px;
+}
+.lektionsplan-beskrivelse {
+  text-align: center;
+  color: white;
+  font-family: "Lato-Regular";
+  margin: 15px 0px 0px 0px;
+
 }
 .lektionsplan-billede {
   width: 100%;
@@ -1024,6 +1043,13 @@ h1.klasse-titel {
   padding-bottom: 20px;
   text-align: center;
 }
+h2.kursus-titel {
+  font-family: "Lato-Regular";
+  font-weight: bold;
+  font-size: 18px;
+  color: #044c7f;
+  margin: 0px 0px 4px 0px;
+}
 .opgave-img {
   width: 400px;
   height: 250px;
@@ -1103,4 +1129,78 @@ p.opg-beskrivelse {
   font-size: 20px;
   padding: 10px 0px 10px 0px;
   box-sizing: border-box;
+}
+/***********MIN PROFIL**********/
+#wrapper-profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #E4ECF2;
+}
+#messages {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f1f1f2;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+#user {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 20px;
+  background-color: #f1f1f2;
+  border-radius: 20px;
+}
+#favorites {
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f1f1f2;
+  border-radius: 20px;
+  margin: 20px 0px 0px 20px;
+}
+#create {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f2;
+  border-radius: 20px;
+  margin: 20px 0px 0px 20px;
+}
+.profile-col-1 {
+  display: flex;
+  flex: 1;
+}
+.profile-col-2 {
+  flex: 3;
+}
+.messageico {
+  max-width: 300px;
+  height: auto;
+  margin: 20px auto;
+}
+.img-userpic {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}
+.img-upload {
+  width: 250px;
+  height: auto;
+}
+p.profile-description {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  color: black;
+  margin: 20px 0px 20px 0px;
+  line-height: 28px;
 }
