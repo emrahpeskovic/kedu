@@ -9,17 +9,17 @@
     <div id="container">
       <div id="logo"></div>
       <div id="input-container">
-        <form action="index.html">
-        <input type="text" placeholder="Fornavn" required>
-        <input type="text" placeholder="Efternavn" required>
-        <input type="text" placeholder="E-mail" required>
-        <input type="password" placeholder="Password" required>
+        <form action="signin.html">
+        <input id="fornavn" type="text" placeholder="Fornavn" required>
+        <input id="efternavn" type="text" placeholder="Efternavn" required>
+        <input id="email" type="text" placeholder="E-mail" required>
+        <input id="password" type="password" placeholder="Password" required>
         <input type="password" placeholder="Bekræft password" required>
-        <a href="signin.html"><button class="button_left">Tilbage</button></a>
-        <input type="submit" value="Opret bruger" class="button">
+        <input type="submit" value="Opret bruger" id="create" onClick="saveInfo()">
       </form>
+        <a href="signin.html"><button class="button_left">Tilbage</button></a>
       </div>
     </div>
-    
+    <script src="assets/js/javascript.js" charset="utf-8"></script>
     </body>
     </html>

@@ -7,10 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Dansk - KEDU</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/javascript.js" charset="utf-8"></script>
 </head>
   <body>
     <div class="logo_container">
-      <img src="assets/images/kedu_logo.png" class="logo" alt="">
+      <a href="index.html">
+      <img src="assets/images/kedu_logo.png" class="logo" alt="logo">
+      <a href="index.html"></a>
     </div>
     <nav>
       <ul>
@@ -28,15 +31,16 @@
           <div id="header_container">
             <div id="header-cover">
               <h1 id="page-title">
-                Forum - Inspiration
+                <a href="forum.html">Forum</a> / <a href="forum-inspiration.html">Inspiration</a>
               </h1>
-              <div class="choices">
-                <h2>Nyeste</h2>
-                <div class="fa fa-caret-square-o-down">
+              <div class="filter_search">
+                <div class="filter">
+                  <h2>Filter</h2>
+                  <div class="fa fa-caret-square-o-down">
+                  </div>
                 </div>
-              </div>
-              <div class="search">
-                <h2>Søg</h2>
+                <input class="search" type="text" name="search" placeholder="   Søg">
+                </input>
               </div>
             </div>
         </header>
@@ -45,16 +49,30 @@
               <h1 class="boks-titel">
                 Nyeste indlæg
               </h1>
-            <div class="traad-container">
               <a href="forum-traad.html">
+            <div class="traad-container">
                 <h1 class="traad-titel">
                   Få leg og sjov ind i grammatikken!
                 </h1>
-              </a>
               <p class="forum-beskrivelse">
                 Fusce dignissim velit ex, et laoreet turpis vehicula ac. Quisque fermentum odio massa, a porta ligula vehicula sit amet. Sed volutpat gravida dui a malesuada.
               </p>
+              <div class="tag-wrap">
+              <div class="meta-tag">
+                Idé
+              </div>
+              <div class="meta-tag">
+                Vigtigt
+              </div>
+              <div class="meta-tag">
+                Dansk
+              </div>
+              <div class="meta-tag">
+                Hjælp
+              </div>
             </div>
+            </div>
+            </a>
             <div class="traad-container">
               <h1 class="traad-titel">
                 Sådan lærte jeg mine elever at samarbejde er vigtig.
@@ -62,6 +80,14 @@
               <p class="forum-beskrivelse">
                 Fusce dignissim velit ex, et laoreet turpis vehicula ac. Quisque fermentum odio massa, a porta ligula vehicula sit amet. Sed volutpat gravida dui a malesuada.
               </p>
+              <div class="tag-wrap">
+              <div class="meta-tag">
+                Idé
+              </div>
+              <div class="meta-tag">
+                Hjælp
+              </div>
+            </div>
             </div>
             <div class="traad-container">
               <h1 class="traad-titel">
@@ -78,6 +104,17 @@
               <p class="forum-beskrivelse">
                 Fusce dignissim velit ex, et laoreet turpis vehicula ac. Quisque fermentum odio massa, a porta ligula vehicula sit amet. Sed volutpat gravida dui a malesuada.
               </p>
+              <div class="tag-wrap">
+              <div class="meta-tag">
+                Vigtigt
+              </div>
+              <div class="meta-tag">
+                Dansk
+              </div>
+              <div class="meta-tag">
+                Hjælp
+              </div>
+            </div>
             </div>
             <div class="traad-container">
               <h1 class="traad-titel">
@@ -86,6 +123,20 @@
               <p class="forum-beskrivelse">
                 Fusce dignissim velit ex, et laoreet turpis vehicula ac. Quisque fermentum odio massa, a porta ligula vehicula sit amet. Sed volutpat gravida dui a malesuada.
               </p>
+              <div class="tag-wrap">
+              <div class="meta-tag">
+                Idé
+              </div>
+              <div class="meta-tag">
+                Vigtigt
+              </div>
+              <div class="meta-tag">
+                Dansk
+              </div>
+              <div class="meta-tag">
+                Hjælp
+              </div>
+            </div>
             </div>
             <div class="traad-container">
               <h1 class="traad-titel">
@@ -94,6 +145,10 @@
               <p class="forum-beskrivelse">
                 Fusce dignissim velit ex, et laoreet turpis vehicula ac. Quisque fermentum odio massa, a porta ligula vehicula sit amet. Sed volutpat gravida dui a malesuada.
               </p>
+              <div class="tag-wrap">
+              <div class="meta-tag">
+                Idé
+              </div>
             </div>
             <p class="forum-pagenumber">
               <a href="#"><b>1</b> 2 3 4 5 6 ... 13 <b></b>»</a>
@@ -102,7 +157,7 @@
         </div>
         <footer>
           <div class="flex justify-center">
-            <div>
+            <div class="flytte2">
               <h2>Se også</h2> <br>
               <p class="footer_tekst">
                 <p class="tekst_footer">Vores historie</p>
@@ -125,6 +180,9 @@
             <a href="https://www.instagram.com/kubo_robotics/" target="_blank" class="fa fa-instagram"></a>
             <a href="https://www.youtube.com/channel/UChwLFdfKUKjSIjsmqjK1g9A" target="_blank" class="fa fa-youtube"></a>
             <a href="https://twitter.com/kubo_robot?lang=en" target="_blank" class="fa fa-twitter"></a>
+            <div class="scrolltop">
+              <img src="assets/images/scrolltop.png" alt="top" id="topscroll" onclick="scrollToTop();return false">
+          </div>
           </div>
         </footer>
       </body>

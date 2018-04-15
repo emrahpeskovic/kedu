@@ -64,6 +64,18 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
     float: left;
 }
+#create {
+  width: 150px;
+  height: 44px;
+  background-color: #216393;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lato-Regular";
+  color: #fff;
+  float: right;
+  border-style: none;
+}
+
 .button {
   width: 150px;
   height: 44px;
@@ -75,6 +87,7 @@ input[type=text], input[type=password] {
   float: right;
   border-style: none;
 }
+
 .button:hover {
   background-color: #00a19b;
 }

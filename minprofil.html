@@ -7,10 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Min profil - KEDU</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/javascript.js" charset="utf-8"></script>
 </head>
 <body>
   <div class="logo_container">
-    <img src="assets/images/kedu_logo.png" class="logo" alt="">
+    <a href="index.html">
+    <img src="assets/images/kedu_logo.png" class="logo" alt="logo">
+    <a href="index.html"></a>
   </div>
     <nav>
       <ul>
@@ -29,114 +32,130 @@
           <h1 id="page-title">
             Min profil
           </h1>
+          <div class="logout">
+            <h2>Log ud</h2>
+            <a href="signin.html">
+              <img src="assets/images/logout.png" alt="logout">
+            </a>
+          </div>
+          <div class="edit">
+            <h2>Rediger profil</h2>
+            <a href="#">
+              <img src="assets/images/edit.png" alt="edit">
+            </a>
+          </div>
         </div>
     </header>
-    <div id="wrapper">
-    <aside id="aside-kurser">
-      <h1 class="boks-titel">
-        Niels Hansen
-      </h1>
-      <div class="post-bruger">
-        <img src="http://via.placeholder.com/200x200">
-        <a href="minprofil.html" class="brugernavn">
-          Niels Hansen
-        </a>
-        <p class="bruger-beskrivelse">
-          24 år <br />
-          Dansk / Tysk<br />
-          Dybbøl Skolen
-        </p>
+    <div id="wrapper-profile">
+      <div class="profile-col-1">
+        <aside id="messages">
+          <h1 class="boks-titel">
+            Beskeder
+          </h1>
+          <div class="kursus">
+            <div class="materialer-col-1">
+            <img src="assets/images/test.mand.png" class="kursus-billede">
+          </div>
+          <div class="materialer-col-2">
+            <h2 class="kursus-titel">Angående undervisning..</h2>
+            <p class="kursus-beskrivelse">
+              Cras vel facilisis risus. In in commodo urna. Integer efficitur sollicitudin mattis.
+            </p>
+          </div>
+          </div>
+          <div class="kursus">
+            <div class="materialer-col-1">
+            <img src="assets/images/mand1.png" class="kursus-billede">
+          </div>
+          <div class="materialer-col-2">
+            <h2 class="kursus-titel">Tak for hjælpen!</h2>
+            <p class="kursus-beskrivelse">
+              Cras vel facilisis risus. In in commodo urna. Integer efficitur sollicitudin mattis.
+            </p>
+          </div>
+          </div>
+          <div class="kursus">
+            <div class="materialer-col-1">
+            <img src="assets/images/mand2.png" class="kursus-billede">
+          </div>
+          <div class="materialer-col-2">
+            <h2 class="kursus-titel">Vend tilbage til mig</h2>
+            <p class="kursus-beskrivelse">
+              Cras vel facilisis risus. In in commodo urna. Integer efficitur sollicitudin mattis.
+            </p>
+          </div>
+          </div>
+          <div class="kursus">
+            <div class="materialer-col-1">
+            <img src="assets/images/mand3.png" class="kursus-billede">
+          </div>
+          <div class="materialer-col-2">
+            <h2 class="kursus-titel">Hvordan går det?</h2>
+            <p class="kursus-beskrivelse">
+              Cras vel facilisis risus. In in commodo urna. Integer efficitur sollicitudin mattis.
+            </p>
+          </div>
+          </div>
+        </aside>
       </div>
-    </aside>
-    <div id="col-2">
-      <h1 class="boks-titel">
-        Lektionsplaner
-      </h1>
-      <section id="section-lektionsplaner">
-      <div class="lektionsplan">
-        <img src="assets/images/lektionsplaner/001.jpg" class="lektionsplan-billede">
-        <p class="lektionsplan-beskrivelse">
-          Hej hej hej.
-        </p>
+        <div class="profile-col-2">
+          <section id="user">
+            <h1 class="boks-titel">
+              Tim Nielsen
+            </h1>
+            <img src="assets/images/mand1.jpg" class="img-userpic">
+            <p class="profile-description">
+              Alder: 34<br />
+              Skole: Nørreskov Skole<br />
+              Primære klasser: 4-5. klasse<br />
+              Primære fag: Tysk, Matematik, Engelsk
+            </p>
+          </section>
+          <div id="content">
+          <section id="favorites">
+            <h1 class="boks-titel">
+              Favoritter
+            </h1>
+            <div class="lektionsplan">
+              <img src="assets/images/lektionsplaner/002.jpg" class="lektionsplan-billede">
+              <h2 class="boks-hvidtekst">
+                Matematik
+              </h2>
+              <p class="lektionsplan-beskrivelse">
+                Klasse 0-2
+              </p>
+              <p class="lektionsplan-beskrivelse">
+                Downloads - 8 <img src="assets/images/download.knap.png" class="kommentarerico">
+              </p>
+              <p class="lektionsplan-beskrivelse">
+                Kommentarer - 11 <img src="assets/images/kommentarer.png" class="downloadico">
+              </p>
+            </div>
+            <div class="lektionsplan">
+              <img src="assets/images/lektionsplaner/003.jpg" class="lektionsplan-billede">
+              <h2 class="boks-hvidtekst">
+                Engelsk
+              </h2>
+              <p class="lektionsplan-beskrivelse">
+                Klasse 0-2
+              </p>
+              <p class="lektionsplan-beskrivelse">
+                Downloads - 8 <img src="assets/images/download.knap.png" class="kommentarerico">
+              </p>
+              <p class="lektionsplan-beskrivelse">
+                Kommentarer - 11 <img src="assets/images/kommentarer.png" class="downloadico">
+              </p>
+            </div>
+          </section>
+          <section id="create">
+            <a href="#"><img src="assets/images/opload.knap.png" class="img-upload"></a>
+          </section>
+        </div>
       </div>
-      <div class="lektionsplan">
-        <img src="assets/images/lektionsplaner/002.jpg" class="lektionsplan-billede">
-        <p class="lektionsplan-beskrivelse">
-          Hej hej hej.
-        </p>
-      </div>
-      <div class="lektionsplan">
-        <img src="assets/images/lektionsplaner/003.jpg" class="lektionsplan-billede">
-        <p class="lektionsplan-beskrivelse">
-          Hej hej hej.
-        </p>
-      </div>
-      <div class="lektionsplan">
-        <img src="assets/images/lektionsplaner/004.jpg" class="lektionsplan-billede">
-        <p class="lektionsplan-beskrivelse">
-          Hej hej hej.
-        </p>
-      </div>
-      <div class="lektionsplan">
-        <img src="assets/images/lektionsplaner/005.jpg" class="lektionsplan-billede">
-        <p class="lektionsplan-beskrivelse">
-          Hej hej hej.
-        </p>
-      </div>
-      </section>
-      <section id="content">
-      <section id="section_aarsplaner">
-        <h1 class="boks-titel">
-          Årsplaner
-        </h1>
-        <p class="boks-tekst_left">
-          Dansk<br />
-          Engelsk<br />
-          Kodning<br />
-          Samfundsfag<br />
-          Tysk<br />
-          Fysik<br />
-          Matematik
-        </p>
-        <p class="boks-tekst_right">
-          Dansk<br />
-          Engelsk<br />
-          Kodning<br />
-          Samfundsfag<br />
-          Tysk<br />
-          Fysik<br />
-          Matematik
-        </p>
-    </section>
-      <section id="section_emnedage">
-        <h1 class="boks-titel">
-          Emnedage
-        </h1>
-        <p class="boks-beskrivelse_left">
-          Dansk<br />
-          Engelsk<br />
-          Kodning<br />
-          Samfundsfag<br />
-          Tysk<br />
-          Fysik<br />
-          Matematik
-        </p>
-        <p class="boks-beskrivelse_right">
-          Dansk<br />
-          Engelsk<br />
-          Kodning<br />
-          Samfundsfag<br />
-          Tysk<br />
-          Fysik<br />
-          Matematik
-        </p>
-      </section>
-    </section>
     </div>
-  </div>
   <footer>
     <div class="flex justify-center">
-      <div>
+      <div class="flytte2">
         <h2>Se også</h2> <br>
         <p class="footer_tekst">
           <p class="tekst_footer">Vores historie</p>
@@ -159,6 +178,9 @@
       <a href="https://www.instagram.com/kubo_robotics/" target="_blank" class="fa fa-instagram"></a>
       <a href="https://www.youtube.com/channel/UChwLFdfKUKjSIjsmqjK1g9A" target="_blank" class="fa fa-youtube"></a>
       <a href="https://twitter.com/kubo_robot?lang=en" target="_blank" class="fa fa-twitter"></a>
+      <div class="scrolltop">
+        <img src="assets/images/scrolltop.png" alt="top" id="topscroll" onclick="scrollToTop();return false">
+    </div>
     </div>
   </footer>
 </body>
