@@ -144,7 +144,7 @@ h3 {
   padding: 0;
 }
 
-p.description {
+p.typo-description {
   flex: 8;
   font-family: "Lato";
   font-size: 16px;
@@ -179,6 +179,13 @@ p.description {
   margin: 0px 10px 0px 10px;
   padding: 0px 5px 0px 5px;
   text-align: right;
+}
+.logo-wrap {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-wrapper {
   display: flex;
@@ -254,7 +261,7 @@ p.description {
   justify-content: center;
   color: #fff;
   font-family: "Lato-Regular";
-  font-size: 20px;
+  font-size: 18px;
 }
 .description {
   width: 100%;
