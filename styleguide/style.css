@@ -88,8 +88,8 @@ a {
 }
 .title {
   font-family: "Lato";
-  font-size: 28px;
+  font-size: 34px;
   color: #000;
-  margin: 10px 0px 10px 0px;
-  padding: 0;
+  padding: 20px 0px 10px 20px;
+  margin: 0;
 }
