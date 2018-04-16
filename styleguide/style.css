@@ -2,6 +2,10 @@
 font-family: "Lato";
 src: url("Lato-Light.ttf")
 }
+@font-face {
+font-family: "Lato-Regular";
+src: url("Lato-Regular.ttf")
+}
 body {
   background-color: #f1f1f2;
   margin: 0;
@@ -19,7 +23,6 @@ body {
 }
 #content {
   flex: 3;
-  height: 1200px;
   background-color: #E4ECF2;
   font-family: "Lato";
   font-size: 16px;
@@ -176,4 +179,31 @@ p.description {
   margin: 0px 10px 0px 10px;
   padding: 0px 5px 0px 5px;
   text-align: right;
+}
+.boks {
+  width: 100%;
+  background-color: #f1f1f2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title-example {
+  width: 100%;
+  height: 70px;
+  background-color: #044c7f;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Lato-Regular";
+  font-size: 20px;
+}
+.description {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
 }
