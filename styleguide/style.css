@@ -109,3 +109,24 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+h2 {
+  font-family: "Lato";
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Lato";
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+p.description {
+  font-family: "Lato";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
