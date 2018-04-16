@@ -100,5 +100,12 @@ a {
   border-bottom: 1px solid #999;
   width: 100%;
   margin-top: 40px;
+  height: 65px;
+}
 
+h1 {
+  font-family: "Lato";
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
 }
