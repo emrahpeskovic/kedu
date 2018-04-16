@@ -76,11 +76,10 @@ a {
   text-decoration: none;
 }
 #typografi {
-  width: 100%;
 }
 #farver {
 }
-#logo {
+#logo-center {
   margin: 0px 0px 0px 40px;
   width: 170px;
 }
@@ -93,11 +92,11 @@ section#logo {
 #kontainere {
 
 }
-.title {
+.section-title {
   font-family: "Lato";
   font-size: 34px;
   color: #000;
-  padding: 0px 0px 20px 0px;
+  padding: 5px 0px 20px 0px;
 }
 
 .typo-container {
