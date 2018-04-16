@@ -7,7 +7,7 @@ font-family: "Lato-Regular";
 src: url("Lato-Regular.ttf")
 }
 body {
-  background-color: #f1f1f2;
+  background-color: #E4ECF2;
   margin: 0;
 }
 #wrapper {
@@ -83,13 +83,21 @@ a {
 #typografi {
 }
 #farver {
+  border-bottom: 1px solid #999;
+  padding: 20px 0px 20px 0px;
+}
+
+#button {
+  border-bottom: 1px solid #999;
+  padding: 20px 0px 20px 0px;
 }
 #logo-center {
   margin: 0px 0px 0px 40px;
   width: 170px;
 }
 section#logo {
-
+  border-bottom: 1px solid #999;
+  padding: 20px 0px 20px 0px;
 }
 #navigation {
 
