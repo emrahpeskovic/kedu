@@ -773,6 +773,8 @@ p.bruger-beskrivelse {
   width: 100%;
   box-sizing: border-box;
   background-color: #E4ECF2;
+  padding: 20px;
+  box-sizing: border-box;
 }
 #opgaver-container {
   max-width: 1100px;
