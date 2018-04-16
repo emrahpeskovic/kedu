@@ -278,8 +278,23 @@ header#header-minprofil {
   cursor: pointer;
 
 }
-
-
+.add-comment-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 120px;
+  height: 25px;
+  font-family: "Lato-Regular";
+  color: white;
+  font-size: 14px;
+  background-color: #044C7F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-comment-btn:hover {
+  background-color: #00a19b;
+}
 
 h1#page-title, h1#page-title a {
   color: #fff;
@@ -625,6 +640,7 @@ p.forum-pagenumber {
   margin-top: 20px;
 }
 .post-eksempel {
+  position: relative;
   max-width: 1200px;
   flex: 3;
   background-color: #E4ECF2;
