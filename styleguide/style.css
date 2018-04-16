@@ -73,9 +73,9 @@ li {
 }
 li:hover {
   background-color: #cbd3d9;
-  text-decoration: none;
 }
-a {
+a:link, a:hover, a:visited, a:active {
+  color: #000;
   text-decoration: none;
 }
 #typografi {
@@ -268,4 +268,6 @@ p.typo-description {
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
+  font-family: "Lato-Regular";
+  font-size: 18px;
 }
