@@ -160,7 +160,7 @@ h3 {
 
 p.typo-description {
   flex: 8;
-  font-family: "Lato-Regular";
+  font-family: "Lato";
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -191,6 +191,16 @@ p.typo-description2 {
 p.typo-description3 {
   flex: 8;
   font-family: Verdana;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p.typo-description4 {
+  flex: 8;
+  font-family: "Lato-Regular";
   font-size: 16px;
   margin: 0;
   padding: 0;
