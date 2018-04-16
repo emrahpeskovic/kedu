@@ -104,11 +104,21 @@ section#logo {
   flex-direction: row;
   border-bottom: 1px solid #999;
   width: 100%;
-  margin-top: 40px;
+  padding: 40px 0px 40px 0px;
   height: 65px;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.example {
+  right: 0;
+  margin: 0px 10px 0px 10px;
+  flex: 1;
 }
 
 h1 {
+  flex: 8;
   font-family: "Lato";
   font-size: 40px;
   margin: 0;
@@ -116,6 +126,7 @@ h1 {
 }
 
 h2 {
+  flex: 8;
   font-family: "Lato";
   font-size: 30px;
   margin: 0;
@@ -123,6 +134,7 @@ h2 {
 }
 
 h3 {
+  flex: 8;
   font-family: "Lato";
   font-size: 20px;
   margin: 0;
@@ -130,6 +142,7 @@ h3 {
 }
 
 p.description {
+  flex: 8;
   font-family: "Lato";
   font-size: 16px;
   margin: 0;
