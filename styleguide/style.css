@@ -180,6 +180,61 @@ p.description {
   padding: 0px 5px 0px 5px;
   text-align: right;
 }
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-button {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100px;
+    background-color: #044C7F;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+.profile-button:hover {
+    opacity: 0.5;
+}
+.nav-button {
+  display: flex;
+    list-style: none;
+    width: 160px;
+    height: 40px;
+    background-color: #044C7F;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    opacity: 1;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    cursor: pointer;
+}
+.nav-button:hover {
+  opacity: 0.5;
+}
+.comment-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #044C7F;
+  color: white;
+  font-size: 10px;
+  height: 36px;
+  width: 100px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.comment-button:hover {
+  opacity: 0.5;
+}
 .boks {
   width: 100%;
   background-color: #f1f1f2;
