@@ -6,6 +6,10 @@ src: url("Lato-Light.ttf")
 font-family: "Lato-Regular";
 src: url("Lato-Regular.ttf")
 }
+@font-face {
+font-family: "Cabin-Sketch-Reg";
+src: url("CabinSketch-Regular.ttf")
+}
 body {
   background-color: #E4ECF2;
   margin: 0;
@@ -74,7 +78,8 @@ li {
   padding: 10px 10px 5px 10px;
 }
 li:hover {
-  background-color: #cbd3d9;
+  color: white;
+  background-color: #044c7f;
 }
 a:link, a:hover, a:visited, a:active {
   color: #000;
@@ -105,12 +110,12 @@ section#logo {
 #kontainere {
 }
 .section-title {
-  font-family: "Lato";
-  font-size: 34px;
-  color: #000;
-  padding: 15px 0px 20px 0px;
+  font-family: "Cabin-Sketch-Reg";
+  font-size: 50px;
+  color: #fff;
+  padding: 15px 0px 30px 0px;
+  text-shadow: 3px 3px 1px #888;
 }
-
 .typo-container {
   display: flex;
   flex-direction: row;
